@@ -1,20 +1,23 @@
-package approxy.mode;
+package com.love320.approxy.mode;
 
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-import approxy.Config;
-import approxy.manager.IPort;
-import approxy.manager.P2PManager;
-import approxy.processor.ProcessorServer;
+import com.love320.approxy.Config;
+import com.love320.approxy.manager.IPort;
+import com.love320.approxy.manager.P2PManager;
+import com.love320.approxy.processor.ProcessorServer;
+
+
+
 
 public class P2PServer implements Runnable{
 	
 	private IPort iport;
 
 	public static void main(String[] args) throws IOException {
-		
+		System.out.println("Started(Listen T Port:"+Config.PROXY_TO_DOC+")");
 		ProcessorServer processor = new ProcessorServer();
 		new Thread(processor).start();//启动专用通信线程
 		

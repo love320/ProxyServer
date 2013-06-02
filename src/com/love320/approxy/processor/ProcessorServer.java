@@ -1,4 +1,4 @@
-package approxy.processor;
+package com.love320.approxy.processor;
 
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -6,8 +6,10 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
-import approxy.Config;
-import approxy.manager.P2PManager;
+import com.love320.approxy.Config;
+import com.love320.approxy.manager.P2PManager;
+
+
 
 public class ProcessorServer implements Runnable {
 	

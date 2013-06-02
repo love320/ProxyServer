@@ -1,16 +1,18 @@
-package approxy.mode;
+package com.love320.approxy.mode;
 
 import java.io.IOException;
 import java.net.Socket;
 
-import approxy.Config;
-import approxy.manager.P2PManager;
-import approxy.processor.ProcessorClient;
+import com.love320.approxy.Config;
+import com.love320.approxy.manager.P2PManager;
+import com.love320.approxy.processor.ProcessorClient;
+
+
 
 public class P2PClient extends java.lang.Thread  {
 	
 	public static void main(String[] args) throws IOException {
-		System.out.println("Started(Listen Port:"+Config.PROXY_HOST+":"+Config.PROXY_TO_DOC);
+		System.out.println("Started Listen Port:"+Config.PROXY_HOST+":"+Config.PROXY_TO_DOC);
 		
 		ProcessorClient processor = new ProcessorClient();
 		

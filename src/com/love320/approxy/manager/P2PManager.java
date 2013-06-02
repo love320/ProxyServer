@@ -1,4 +1,4 @@
-package approxy.manager;
+package com.love320.approxy.manager;
 
 import java.net.Socket;
 
