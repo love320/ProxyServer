@@ -54,14 +54,15 @@ public class ProcessorServer implements Runnable {
 		P2PManager.msg(msg);
 	}
 	
-	public static void sendConnetNewSocket() throws IOException{
+	public static void sendConnetNewSocket(String ip,Integer port) throws IOException{
+		String msgbag = ip +"#"+port;
 		try {
 			DataOutputStream out=new DataOutputStream(socketT.getOutputStream());  
-			out.write(Config.SERVEROK.getBytes());
+			out.write(msgbag.getBytes());
 		} catch (Exception e) {
 			socketT = null;
 			initSocket();
-			sendConnetNewSocket();
+			sendConnetNewSocket(ip,port);
 		}
 	}
 	

@@ -40,8 +40,10 @@ public class ProcessorClient implements Runnable {
 		temp = socketT.getInputStream().read(buffer);
 
 		String msg =new String(buffer,0,temp);
-		if(temp>0 && msg.equals(Config.SERVEROK)){
-			Socket clientSocket = new Socket(Config.DOC_HOST,Config.DOC_PORT);
+		String[] ss = msg.split("#");
+		Socket clientSocket = null;
+		if(temp>0 && ss.length == 2 ){
+			clientSocket = new Socket(ss[0],Integer.valueOf(ss[1]));
 			Socket serverSocket = new Socket(Config.PROXY_HOST,Config.PROXY_TO_DOC);
 			System.out.println("clientSocket:"+clientSocket);
 			System.out.println("server:"+serverSocket);
