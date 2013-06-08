@@ -42,8 +42,8 @@ public class ProcessorClient implements Runnable {
 			clientSocket = new Socket(ss[0],Integer.valueOf(ss[1]));
 			Socket serverSocket = new Socket(Config.PROXY_HOST,Config.PROXY_TO_DOC);
 			P2PManager.P2PGO(clientSocket,serverSocket);//启动
-			System.out.println("clientSocket:"+clientSocket);
-			System.out.println("server:"+serverSocket);
+			P2PManager.msg("clientSocket:"+clientSocket);
+			P2PManager.msg("server:"+serverSocket);
 		}else{
 			outWrite(msg.getBytes());//回复
 		}

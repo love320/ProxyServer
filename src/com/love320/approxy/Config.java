@@ -8,6 +8,12 @@ import com.love320.approxy.manager.IPort;
 
 
 public class Config {
+	
+	//日志文件
+	//public static String FILESERVER = "proxyFileServer.txt";
+	public static String FILESERVER = "C:\\JavaService\\app\\proxyFileServer.txt";
+	
+	public static String FILECLIENT = "proxyFileClient.txt";
 
 	//中转服务器
 	public static int PROXY_TO_DOC=22;

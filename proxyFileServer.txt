@@ -1,0 +1,32 @@
+Started(Listen T Port:22)
+Started(Listen Port:6522)
+Started(Listen Port:6512)
+Started(Listen Port:6580)
+serverSocket:ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=22]
+StayConnected OK .
+File: proxyFileServer.txt
+Started(Listen T Port:22)
+Started(Listen Port:6522)
+Started(Listen Port:6512)
+Started(Listen Port:6580)
+serverSocket:ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=22]
+StayConnected OK .
+Started(Listen T Port:22)
+File: null
+Started(Listen Port:6522)
+Started(Listen Port:6512)
+Started(Listen Port:6580)
+Started(Listen T Port:22)
+File: null
+Started(Listen Port:6522)
+Started(Listen Port:6512)
+Started(Listen Port:6580)
+serverSocket:ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=22]
+StayConnected OK .
+Started(Listen T Port:22)
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen Port:6522)
+Started(Listen Port:6512)
+Started(Listen Port:6580)
+serverSocket:ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=22]
+StayConnected OK .

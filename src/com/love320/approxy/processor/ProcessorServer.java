@@ -80,13 +80,8 @@ public class ProcessorServer implements Runnable {
 		outWrite(msgbag.getBytes());
 	}
 	
-	public static Socket getSocket(){
-		try {
-			if(isclose()) return serverSocket.accept();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		return null;
+	public static Socket getSocket() throws IOException{
+		return serverSocket.accept();
 	}
 
 	public static boolean isclose(){

@@ -24,7 +24,9 @@ public class ActionSocketServer implements Runnable {
 	public void run() {
 		
 		try {
+			if(!ProcessorServer.isclose()) return;//关闭
 			ProcessorServer.sendConnetNewSocket(ip,port);//通知客户机主动创建连接
+			P2PManager.msg("sendConnetNewSocket."+ip+":"+port);
 			Socket serverSocket = ProcessorServer.getSocket();//取客户机的连接
 			P2PManager.msg("clientSocket:"+clientSocket);
 			P2PManager.msg("server:"+serverSocket);
