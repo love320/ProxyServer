@@ -7,7 +7,9 @@ import java.net.Socket;
 import com.love320.approxy.Config;
 import com.love320.approxy.manager.IPort;
 import com.love320.approxy.manager.P2PManager;
+import com.love320.approxy.processor.ActionSocketServer;
 import com.love320.approxy.processor.ProcessorServer;
+import com.love320.approxy.processor.StayConnected;
 
 
 
@@ -17,12 +19,12 @@ public class P2PServer implements Runnable{
 	private IPort iport;
 
 	public static void main(String[] args) throws IOException {
-		System.out.println("Started(Listen T Port:"+Config.PROXY_TO_DOC+")");
+		P2PManager.msg("Started(Listen T Port:"+Config.PROXY_TO_DOC+")");
 		ProcessorServer processor = new ProcessorServer();
 		new Thread(processor).start();//启动专用通信线程
 		
 		for(IPort iport:Config.IPORTLIST){
-			System.out.println("Started(Listen Port:"+iport.getProxy()+")");
+			P2PManager.msg("Started(Listen Port:"+iport.getProxy()+")");
 			P2PServer server= new P2PServer();
 			server.setIport(iport);
 			new Thread(server).start();
@@ -34,18 +36,11 @@ public class P2PServer implements Runnable{
 		ServerSocket proxySocket= null;
 		try {
 			proxySocket = new ServerSocket(iport.getProxy());
-		while (true) {
-			try {
-				Socket clientSocket = proxySocket.accept();//取客户连接
-				ProcessorServer.sendConnetNewSocket(iport.getIp(),iport.getPort());//通知客户机主动创建连接
-				Socket server = ProcessorServer.getSocket();//取客户机的连接
-
-				P2PManager.P2PGO(clientSocket,server);//启动
-			} catch (Exception e) {
-				e.printStackTrace();
+			while (true) {
+					Socket clientSocket = proxySocket.accept();//取客户连接
+					ActionSocketServer ass = new ActionSocketServer(clientSocket,iport.getIp(),iport.getPort());//绑定相关连接
+					new Thread(ass).start();//启动
 			}
-			
-		}
 		} catch (IOException e1) {
 			e1.printStackTrace();
 		}

@@ -18,21 +18,15 @@ public class ProcessorClient implements Runnable {
 	public void run() {
 			try {
 				socketT = new Socket(Config.PROXY_HOST,Config.PROXY_TO_DOC);
-				
-				DataOutputStream out=new DataOutputStream(socketT.getOutputStream());  
-				out.write(Config.CLIENTOK.getBytes());
-				
 				while(true){
 					read();//读取
 				}
 			} catch (UnknownHostException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-
+			socketT = null;//异常后，清空连接
 	}
 	
 	public void read() throws IOException{
@@ -44,28 +38,33 @@ public class ProcessorClient implements Runnable {
 		String msg =new String(buffer,0,temp);
 		String[] ss = msg.split("#");
 		Socket clientSocket = null;
-		if(temp>0 && ss.length == 2 ){
+		if(temp>0 && ss.length == 2 && isclose() ){
 			clientSocket = new Socket(ss[0],Integer.valueOf(ss[1]));
 			Socket serverSocket = new Socket(Config.PROXY_HOST,Config.PROXY_TO_DOC);
+			P2PManager.P2PGO(clientSocket,serverSocket);//启动
 			System.out.println("clientSocket:"+clientSocket);
 			System.out.println("server:"+serverSocket);
-			
-			P2PManager.P2PGO(clientSocket,serverSocket);//启动
-
+		}else{
+			outWrite(msg.getBytes());//回复
 		}
 	}
 	
 	public static boolean isclose(){
 		try {
 			if(socketT == null ) return false;
-			DataOutputStream out = new DataOutputStream(socketT.getOutputStream());
-			out.write(Config.TEST.getBytes());
-			socketT.sendUrgentData(0xFF);
+			outWrite(Config.TEST.getBytes());
 			return true;
 		} catch (IOException e) {
 			e.printStackTrace();
 		}  
 		return false;
 	}
+	
+	public static boolean outWrite(byte[] bytes) throws IOException{
+		DataOutputStream out = new DataOutputStream(socketT.getOutputStream());
+		out.write(bytes);
+		return true;
+	}
+	
 
 }

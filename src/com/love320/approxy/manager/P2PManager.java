@@ -7,7 +7,7 @@ public class P2PManager {
 	private static int threadCount=0;
 	
 	public static void msg(String message){
-		//System.out.println("msg:"+message);
+		System.out.println("Msg :"+message);
 	}
 	
 	//绑定通信

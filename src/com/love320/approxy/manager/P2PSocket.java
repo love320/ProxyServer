@@ -28,7 +28,7 @@ public class P2PSocket  implements Runnable{
 	    		temp = in.read(buffer);
 	    		if(temp==-1)break;
 	    		String msg =new String(buffer,0,temp);
-	    		P2PManager.msg(msg);
+	    		//P2PManager.msg(msg);
 	    		out.write(buffer,0,temp);
 	    	}
 	    	serverSocket.close();  
