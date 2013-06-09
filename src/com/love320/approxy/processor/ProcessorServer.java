@@ -2,6 +2,7 @@ package com.love320.approxy.processor;
 
 import java.io.DataOutputStream;
 import java.io.IOException;
+import java.io.OutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.UnknownHostException;
@@ -21,7 +22,7 @@ public class ProcessorServer implements Runnable {
 	public void run() {
 		try {
 				if(serverSocket == null) serverSocket = new ServerSocket(Config.PROXY_TO_DOC);
-				P2PManager.msg("serverSocket:"+serverSocket);
+				P2PManager.msg("Started(Listen T Port:"+Config.PROXY_TO_DOC+")");
 				
 				StayConnected stayconn = new StayConnected();
 				new Thread(stayconn).start();//提供专用通信线程保持通信
@@ -36,6 +37,7 @@ public class ProcessorServer implements Runnable {
 	}
 	
 	public static void reSocketT(){
+		P2PManager.msg("reSocketT:"+socketT);
 		socketT = null;
 		try {
 			initSocket();
@@ -45,28 +47,21 @@ public class ProcessorServer implements Runnable {
 	}
 	
 	public static void initSocket() throws IOException{
-		if(socketT == null) socketT = serverSocket.accept();
+		if(socketT == null) socketT = getSocket();
 		P2PManager.msg("socketT:"+socketT);
-		while(true){
-			try {
-				read();
-			} catch (Exception e) {
-				e.printStackTrace();
-				break;
-			}
-		}
-		socketT = null;
-		initSocket();
+		read();
+		reSocketT();//重新获取
 	}
 	
 	public static void read() throws IOException{
-		byte[] buffer = new byte[1024*4];
-		int temp = 0;
-		temp = socketT.getInputStream().read(buffer);
-		//if(temp==-1)break;
-		String msg =new String(buffer,0,temp);
-		//if(msg.equals(Config.CLIENTOK)) socketT = socketT;
-		P2PManager.msg(msg);
+		while(true){
+			byte[] buffer = new byte[1024*4];
+			int temp = 0;
+			temp = socketT.getInputStream().read(buffer);
+			if(temp==-1)break;
+			String msg =new String(buffer,0,temp);
+			P2PManager.msg(msg);
+		}
 	}
 	
 	//发送文本信息
@@ -76,7 +71,7 @@ public class ProcessorServer implements Runnable {
 	}
 	
 	public static void sendConnetNewSocket(String ip,Integer port) throws IOException{
-		String msgbag = ip +"#"+port;
+		String msgbag = P2PManager.IPort(ip, port);
 		outWrite(msgbag.getBytes());
 	}
 	

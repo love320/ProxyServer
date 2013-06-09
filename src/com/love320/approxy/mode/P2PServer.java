@@ -25,7 +25,6 @@ public class P2PServer implements Runnable{
 		FileOutMsg fom = new FileOutMsg(new File(Config.FILESERVER));//日志
 		new Thread(fom).start();//启动日志
 		
-		P2PManager.msg("Started(Listen T Port:"+Config.PROXY_TO_DOC+")");
 		ProcessorServer processor = new ProcessorServer();
 		new Thread(processor).start();//启动专用通信线程
 		
@@ -44,7 +43,7 @@ public class P2PServer implements Runnable{
 			proxySocket = new ServerSocket(iport.getProxy());
 			while (true) {
 					Socket clientSocket = proxySocket.accept();//取客户连接
-					P2PManager.msg("client:"+clientSocket);
+					P2PManager.msg("My Client:"+clientSocket);
 					ActionSocketServer ass = new ActionSocketServer(clientSocket,iport.getIp(),iport.getPort());//绑定相关连接
 					new Thread(ass).start();//启动
 			}

@@ -30,3 +30,28 @@ Started(Listen Port:6512)
 Started(Listen Port:6580)
 serverSocket:ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=22]
 StayConnected OK .
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen Port:6522)
+Started(Listen Port:6512)
+Started(Listen T Port:22)
+StayConnected OK .
+socketT:Socket[addr=/127.0.0.1,port=51460,localport=22]
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+My Client:Socket[addr=/127.0.0.1,port=51466,localport=6522]
+T.isclose TEST
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=51467,localport=22]
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST

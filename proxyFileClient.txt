@@ -1,0 +1,5 @@
+Started Listen Port:127.0.0.1:22
+File: D:\work\git\ProxyServer\proxyFileClient.txt
+clinet for server Go ...
+Target ClientSocket:Socket[addr=/127.0.0.1,port=22,localport=51467]
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=22,localport=51468]

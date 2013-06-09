@@ -12,6 +12,11 @@ public class IPort {
 		this.proxy = proxy;
 	}
 	
+	public IPort(String ip,Integer port ){
+		this.ip= ip;
+		this.port =port;
+	}
+	
 	public String getIp() {
 		return ip;
 	}

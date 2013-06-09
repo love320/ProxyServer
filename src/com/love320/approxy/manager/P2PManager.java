@@ -1,6 +1,8 @@
 package com.love320.approxy.manager;
 
 import java.net.Socket;
+import java.util.ArrayList;
+import java.util.List;
 
 public class P2PManager {
 	
@@ -18,6 +20,26 @@ public class P2PManager {
 		new Thread(p2pC).start();
 		new Thread(p2pS).start();
 		
+	}
+	
+	//生成IP:port通信协议
+	public static String IPort(String ip,Integer port){
+		return "@"+ip +"#"+port+"@";
+	}
+	
+	//解释IP:port通信协议
+	public static List<IPort> IPort(String msg){
+		List<IPort> list = new ArrayList<IPort>();
+		if(msg == null) return list;
+		
+		String[] iports = msg.split("@");
+		for(String sing : iports){
+			String[] ss = sing.split("#");
+			if(ss.length == 2){
+				list.add(new IPort(ss[0],Integer.valueOf(ss[1])));
+			}
+		}
+		return list;
 	}
 
 }
