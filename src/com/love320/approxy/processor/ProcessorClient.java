@@ -63,6 +63,7 @@ public class ProcessorClient implements Runnable {
 	public static boolean outWrite(byte[] bytes) throws IOException{
 		DataOutputStream out = new DataOutputStream(socketT.getOutputStream());
 		out.write(bytes);
+		out.flush();//即刻写入
 		return true;
 	}
 	
