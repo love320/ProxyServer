@@ -70,9 +70,10 @@ public class ProcessorServer implements Runnable {
 		return true;
 	}
 	
-	public static void sendConnetNewSocket(String ip,Integer port) throws IOException{
+	public static Socket sendConnetNewSocket(String ip,Integer port) throws IOException{
 		String msgbag = P2PManager.IPort(ip, port);
 		outWrite(msgbag.getBytes());
+		return ProcessorServer.getSocket();
 	}
 	
 	public static Socket getSocket() throws IOException{

@@ -55,3 +55,572 @@ TEST
 TEST
 TEST
 TEST
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen Port:6522)
+Started(Listen Port:6512)
+Started(Listen T Port:22)
+StayConnected OK .
+Started(Listen Port:6100)
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen T Port:22)
+StayConnected OK .
+socketT:Socket[addr=/127.0.0.1,port=52265,localport=22]
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+My Client:Socket[addr=/127.0.0.1,port=52280,localport=6100]
+T.isclose TEST
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=52282,localport=22]
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen Port:6100)
+Started(Listen T Port:22)
+StayConnected OK .
+socketT:Socket[addr=/127.0.0.1,port=52400,localport=22]
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+My Client:Socket[addr=/127.0.0.1,port=52415,localport=6100]
+T.isclose TEST
+TEST
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=52419,localport=22]
+TEST
+TEST
+TEST
+TEST
+TEST
+My Client:Socket[addr=/127.0.0.1,port=52427,localport=6100]
+T.isclose TEST
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=52429,localport=22]
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+Started(Listen Port:6100)
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen T Port:22)
+StayConnected OK .
+socketT:Socket[addr=/127.0.0.1,port=52451,localport=22]
+TEST
+My Client:Socket[addr=/127.0.0.1,port=52454,localport=6100]
+T.isclose TEST
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=52456,localport=22]
+TEST
+TEST
+TEST
+My Client:Socket[addr=/127.0.0.1,port=52457,localport=6100]
+T.isclose TEST
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=52459,localport=22]
+TEST
+TEST
+My Client:Socket[addr=/127.0.0.1,port=52462,localport=6100]
+T.isclose TEST
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=52464,localport=22]
+TEST
+Close:Socket[addr=/127.0.0.1,port=52462,localport=6100]
+Close:Socket[addr=/127.0.0.1,port=52464,localport=22]
+Close:Socket[addr=/127.0.0.1,port=52464,localport=22]
+Close:Socket[addr=/127.0.0.1,port=52462,localport=6100]
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+Close:Socket[addr=/127.0.0.1,port=52457,localport=6100]
+Close:Socket[addr=/127.0.0.1,port=52459,localport=22]
+Close:Socket[addr=/127.0.0.1,port=52459,localport=22]
+Close:Socket[addr=/127.0.0.1,port=52457,localport=6100]
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+Close:Socket[addr=/127.0.0.1,port=52456,localport=22]
+Close:Socket[addr=/127.0.0.1,port=52454,localport=6100]
+Close:Socket[addr=/127.0.0.1,port=52454,localport=6100]
+Close:Socket[addr=/127.0.0.1,port=52456,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=52451,localport=22]
+My Client:Socket[addr=/127.0.0.1,port=52524,localport=6100]
+My Client:Socket[addr=/127.0.0.1,port=52546,localport=6100]
+My Client:Socket[addr=/127.0.0.1,port=52547,localport=6100]
+socketT:Socket[addr=/127.0.0.1,port=52561,localport=22]
+TEST
+TEST
+My Client:Socket[addr=/127.0.0.1,port=52581,localport=6100]
+T.isclose TEST
+socketT:Socket[addr=/127.0.0.1,port=52585,localport=22]
+TEST
+SSH-2.0-dropbear_0.52
+
+My Client:Socket[addr=/127.0.0.1,port=52586,localport=6100]
+My Client:Socket[addr=/127.0.0.1,port=52588,localport=6100]
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen Port:6100)
+Started(Listen T Port:22)
+StayConnected OK .
+socketT:Socket[addr=/127.0.0.1,port=52601,localport=22]
+TEST
+TEST
+My Client:Socket[addr=/127.0.0.1,port=52605,localport=6100]
+T.isclose TEST
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=52611,localport=22]
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+My Client:Socket[addr=/127.0.0.1,port=52671,localport=6100]
+T.isclose TEST
+TEST
+TEST
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=52677,localport=22]
+TEST
+TEST
+TEST
+TEST
+Close:Socket[addr=/127.0.0.1,port=52671,localport=6100]
+Close:Socket[addr=/127.0.0.1,port=52677,localport=22]
+Close:Socket[addr=/127.0.0.1,port=52677,localport=22]
+Close:Socket[addr=/127.0.0.1,port=52671,localport=6100]
+TEST
+TEST
+TEST
+TEST
+My Client:Socket[addr=/127.0.0.1,port=52694,localport=6100]
+T.isclose TEST
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=52698,localport=22]
+TEST
+TEST
+Close:Socket[addr=/127.0.0.1,port=52694,localport=6100]
+Close:Socket[addr=/127.0.0.1,port=52698,localport=22]
+Close:Socket[addr=/127.0.0.1,port=52698,localport=22]
+Close:Socket[addr=/127.0.0.1,port=52694,localport=6100]
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+My Client:Socket[addr=/127.0.0.1,port=52780,localport=6100]
+T.isclose TEST
+TEST
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=52784,localport=22]
+Close:Socket[addr=/127.0.0.1,port=52780,localport=6100]
+Close:Socket[addr=/127.0.0.1,port=52784,localport=22]
+Close:Socket[addr=/127.0.0.1,port=52784,localport=22]
+Close:Socket[addr=/127.0.0.1,port=52780,localport=6100]
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+My Client:Socket[addr=/127.0.0.1,port=52803,localport=6100]
+T.isclose TEST
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=52805,localport=22]
+Close:Socket[addr=/127.0.0.1,port=52803,localport=6100]
+Close:Socket[addr=/127.0.0.1,port=52805,localport=22]
+Close:Socket[addr=/127.0.0.1,port=52805,localport=22]
+Close:Socket[addr=/127.0.0.1,port=52803,localport=6100]
+TEST
+My Client:Socket[addr=/127.0.0.1,port=52810,localport=6100]
+T.isclose TEST
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=52812,localport=22]
+TEST
+Close:Socket[addr=/127.0.0.1,port=52810,localport=6100]
+Close:Socket[addr=/127.0.0.1,port=52812,localport=22]
+Close:Socket[addr=/127.0.0.1,port=52812,localport=22]
+Close:Socket[addr=/127.0.0.1,port=52810,localport=6100]
+TEST
+My Client:Socket[addr=/127.0.0.1,port=52813,localport=6100]
+T.isclose TEST
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=52815,localport=22]
+TEST
+Close:Socket[addr=/127.0.0.1,port=52813,localport=6100]
+Close:Socket[addr=/127.0.0.1,port=52815,localport=22]
+Close:Socket[addr=/127.0.0.1,port=52815,localport=22]
+Close:Socket[addr=/127.0.0.1,port=52813,localport=6100]
+My Client:Socket[addr=/127.0.0.1,port=52826,localport=6100]
+T.isclose TEST
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=52830,localport=22]
+TEST
+Close:Socket[addr=/127.0.0.1,port=52826,localport=6100]
+Close:Socket[addr=/127.0.0.1,port=52830,localport=22]
+Close:Socket[addr=/127.0.0.1,port=52830,localport=22]
+Close:Socket[addr=/127.0.0.1,port=52826,localport=6100]
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+Started(Listen Port:6100)
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen T Port:22)
+StayConnected OK .
+socketT:Socket[addr=/127.0.0.1,port=52915,localport=22]
+My Client:Socket[addr=/127.0.0.1,port=52916,localport=6100]
+T.isclose TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+Started(Listen Port:6100)
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen T Port:22)
+StayConnected OK .
+socketT:Socket[addr=/127.0.0.1,port=53064,localport=22]
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+My Client:Socket[addr=/127.0.0.1,port=53071,localport=6100]
+TEST
+TEST
+TEST
+TEST
+TEST
+My Client:Socket[addr=/127.0.0.1,port=53079,localport=6100]
+TEST
+TEST
+My Client:Socket[addr=/127.0.0.1,port=53082,localport=6100]
+My Client:Socket[addr=/127.0.0.1,port=53086,localport=6100]
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+My Client:Socket[addr=/127.0.0.1,port=53090,localport=6100]
+TEST
+My Client:Socket[addr=/127.0.0.1,port=53091,localport=6100]
+TEST

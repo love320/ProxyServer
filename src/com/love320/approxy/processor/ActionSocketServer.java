@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.net.Socket;
 
 import com.love320.approxy.manager.P2PManager;
+import com.love320.approxy.manager.P2PSocket;
 
 
 //处理请求的连接
@@ -22,19 +23,18 @@ public class ActionSocketServer implements Runnable {
 
 	@Override
 	public void run() {
+		if(!ProcessorServer.isclose()){
+			P2PSocket.socketClose(clientSocket);
+			return;//关闭
+		}
 		
 		try {
-			if(!ProcessorServer.isclose()) return;//关闭
-			ProcessorServer.sendConnetNewSocket(ip,port);//通知客户机主动创建连接
-			//P2PManager.msg("sendConnetNewSocket."+ip+":"+port);
-			Socket serverSocket = ProcessorServer.getSocket();//取客户机的连接
+			Socket serverSocket = ProcessorServer.sendConnetNewSocket(ip,port);//通知客户机主动创建连接并取客户机的连接
 			P2PManager.msg("PROXY_TO_DOC Server:"+serverSocket);
 			P2PManager.P2PGO(serverSocket,clientSocket);//启动
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
 	}
 	
-
 }

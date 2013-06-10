@@ -31,13 +31,20 @@ public class P2PSocket  implements Runnable{
 	    		//P2PManager.msg(msg);
 	    		out.write(buffer,0,temp);
 	    	}
-	    	serverSocket.close();  
-	    	clientSocket.close();
-		} catch (UnknownHostException e) {
-			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}   
+		socketClose(serverSocket);
+		socketClose(clientSocket);
+	}
+	
+	public static void socketClose(Socket socket){
+		P2PManager.msg("Close:"+socket);
+		try {
+			socket.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 
 	
