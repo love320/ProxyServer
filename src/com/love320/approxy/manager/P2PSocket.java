@@ -34,7 +34,6 @@ public class P2PSocket  implements Runnable{
 		} catch (IOException e) {
 			e.printStackTrace();
 		}   
-		socketClose(serverSocket);
 		socketClose(clientSocket);
 	}
 	
