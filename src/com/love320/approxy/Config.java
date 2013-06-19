@@ -16,7 +16,7 @@ public class Config {
 	//中转服务器
 	public static int PROXY_TO_DOC=22;
 	//public static String PROXY_HOST="127.0.0.1"; //proxy host
-	public static String PROXY_HOST="kingdom.love320.com"; //proxy host
+	public static String PROXY_HOST="aliyun.love320.com"; //proxy host
 	
 	//其它
 	public static String TEST = "TEST";
