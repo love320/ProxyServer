@@ -37,16 +37,16 @@ public class ProcessorClient implements Runnable {
 			temp = socketT.getInputStream().read(buffer);
 			if(temp==-1)break;
 			String msg =new String(buffer,0,temp);
-			
+			P2PManager.msg(msg);
 			List<IPort> iportlist = P2PManager.IPort(msg);
 			if(iportlist.size() == 0){
 				outWrite(msg.getBytes());//回复
 			}else{
 				for(IPort iport : iportlist){
-					Socket clientSocket = new Socket(iport.getIp(),iport.getPort());
-					P2PManager.msg("Target ClientSocket:"+clientSocket);
 					Socket serverSocket = new Socket(Config.PROXY_HOST,Config.PROXY_TO_DOC);
 					P2PManager.msg("PROXY_TO_DOC Server:"+serverSocket);
+					Socket clientSocket = new Socket(iport.getIp(),iport.getPort());
+					P2PManager.msg("Target ClientSocket:"+clientSocket);
 					P2PManager.P2PGO(clientSocket,serverSocket);//启动
 				}
 			}
