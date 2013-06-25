@@ -8,6 +8,8 @@ import com.love320.approxy.Config;
 import com.love320.approxy.manager.FileOutMsg;
 import com.love320.approxy.manager.P2PManager;
 import com.love320.approxy.processor.ProcessorClient;
+import com.love320.approxy.processor.StayConnectedClient;
+import com.love320.approxy.processor.StayConnectedServer;
 
 
 
@@ -19,6 +21,9 @@ public class P2PClient extends java.lang.Thread  {
 		new Thread(fom).start();//启动日志
 		
 		P2PManager.msg("Started Listen Port:"+Config.PROXY_HOST+":"+Config.PROXY_TO_DOC);
+		
+		StayConnectedClient stayconn = new StayConnectedClient();
+		new Thread(stayconn).start();//提供专用通信线程保持通信
 		
 		ProcessorClient processor = new ProcessorClient();
 		

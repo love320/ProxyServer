@@ -941,3 +941,90 @@ clinet for server Go ...
 Started Listen Port:zhangdi1109.gicp.net:80
 File: D:\work\git\ProxyServer\proxyFileClient.txt
 clinet for server Go ...
+Started Listen Port:kingdom.love320.com:22
+File: D:\work\git\ProxyServer\proxyFileClient.txt
+StayConnectedClient OK .
+clinet for server Go ...
+Started Listen Port:kingdom.love320.com:22
+File: D:\work\git\ProxyServer\proxyFileClient.txt
+StayConnectedClient OK .
+clinet for server Go ...
+File: D:\work\git\ProxyServer\proxyFileClient.txt
+Started Listen Port:127.0.0.1:22
+StayConnectedClient OK .
+clinet for server Go ...
+File: D:\work\git\ProxyServer\proxyFileClient.txt
+Started Listen Port:127.0.0.1:22
+StayConnectedClient OK .
+clinet for server Go ...
+clinet for server Go ...
+clinet for server Go ...
+clinet for server Go ...
+clinet for server Go ...
+clinet for server Go ...
+clinet for server Go ...
+clinet for server Go ...
+clinet for server Go ...
+clinet for server Go ...
+clinet for server Go ...
+clinet for server Go ...
+T.isclose TEST
+@192.168.1.100#22@
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=22,localport=49759]
+Target ClientSocket:Socket[addr=/192.168.1.100,port=22,localport=49760]
+T.isclose TEST
+@192.168.1.100#22@
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=22,localport=49762]
+Target ClientSocket:Socket[addr=/192.168.1.100,port=22,localport=49763]
+T.isclose TEST
+@192.168.1.100#22@
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=22,localport=49768]
+Target ClientSocket:Socket[addr=/192.168.1.100,port=22,localport=49769]
+T.isclose TEST
+@192.168.1.100#22@
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=22,localport=49771]
+Target ClientSocket:Socket[addr=/192.168.1.100,port=22,localport=49772]
+T.isclose TEST
+@192.168.1.100#22@
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=22,localport=49774]
+Target ClientSocket:Socket[addr=/192.168.1.100,port=22,localport=49775]
+T.isclose TEST
+@192.168.1.100#22@
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=22,localport=49777]
+Target ClientSocket:Socket[addr=/192.168.1.100,port=22,localport=49778]
+T.isclose TEST
+@192.168.1.100#22@
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=22,localport=49780]
+Target ClientSocket:Socket[addr=/192.168.1.100,port=22,localport=49781]
+Close:Socket[addr=/127.0.0.1,port=22,localport=49780]
+Close:Socket[addr=/192.168.1.100,port=22,localport=49781]
+T.isclose TEST
+@192.168.1.100#22@
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=22,localport=49783]
+Target ClientSocket:Socket[addr=/192.168.1.100,port=22,localport=49784]
+Close:Socket[addr=/127.0.0.1,port=22,localport=49783]
+Close:Socket[addr=/192.168.1.100,port=22,localport=49784]
+T.isclose TEST
+@192.168.1.100#22@
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=22,localport=49786]
+Target ClientSocket:Socket[addr=/192.168.1.100,port=22,localport=49787]
+Close:Socket[addr=/127.0.0.1,port=22,localport=49786]
+Close:Socket[addr=/192.168.1.100,port=22,localport=49787]
+T.isclose TEST
+@192.168.1.100#22@
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=22,localport=49789]
+Target ClientSocket:Socket[addr=/192.168.1.100,port=22,localport=49790]
+Close:Socket[addr=/127.0.0.1,port=22,localport=49789]
+Close:Socket[addr=/192.168.1.100,port=22,localport=49790]
+Close:Socket[addr=/192.168.1.100,port=22,localport=49778]
+Close:Socket[addr=/127.0.0.1,port=22,localport=49777]
+Close:Socket[addr=/192.168.1.100,port=22,localport=49775]
+Close:Socket[addr=/127.0.0.1,port=22,localport=49774]
+Close:Socket[addr=/192.168.1.100,port=22,localport=49772]
+Close:Socket[addr=/127.0.0.1,port=22,localport=49771]
+Close:Socket[addr=/192.168.1.100,port=22,localport=49769]
+Close:Socket[addr=/127.0.0.1,port=22,localport=49768]
+Close:Socket[addr=/192.168.1.100,port=22,localport=49763]
+Close:Socket[addr=/127.0.0.1,port=22,localport=49762]
+Close:Socket[addr=/192.168.1.100,port=22,localport=49760]
+Close:Socket[addr=/127.0.0.1,port=22,localport=49759]

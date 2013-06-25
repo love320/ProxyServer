@@ -11,7 +11,7 @@ import com.love320.approxy.manager.IPort;
 import com.love320.approxy.manager.P2PManager;
 import com.love320.approxy.processor.ActionSocketServer;
 import com.love320.approxy.processor.ProcessorServer;
-import com.love320.approxy.processor.StayConnected;
+import com.love320.approxy.processor.StayConnectedServer;
 
 
 

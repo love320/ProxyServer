@@ -64,6 +64,10 @@ public class ProcessorClient implements Runnable {
 		return false;
 	}
 	
+	public static boolean outWrite(String str) throws IOException{
+		return outWrite(str.getBytes());
+	}
+	
 	public static boolean outWrite(byte[] bytes) throws IOException{
 		DataOutputStream out = new DataOutputStream(socketT.getOutputStream());
 		out.write(bytes);

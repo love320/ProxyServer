@@ -1650,3 +1650,461 @@ Started(Listen Port:6522) for P2PServerReverse
 Started(Listen Port:6512) for P2PServerReverse 
 Started(Listen T Port:80)
 StayConnected OK .
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen Port:6599) for P2PServerProxy
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen T Port:22)
+StayConnected OK .
+reSocketT:null
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen Port:6599) for P2PServerProxy
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen T Port:22)
+StayConnected OK .
+Started(Listen Port:6599) for P2PServerProxy
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen T Port:22)
+StayConnected OK .
+socketT:Socket[addr=/127.0.0.1,port=49722,localport=22]
+TEST
+TEST
+TEST
+TEST
+reSocketT:Socket[addr=/127.0.0.1,port=49722,localport=22]
+socketT:Socket[addr=/127.0.0.1,port=49726,localport=22]
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen Port:6599) for P2PServerProxy
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6100) for P2PServerReverse 
+Started(Listen T Port:22)
+StayConnected OK .
+socketT:Socket[addr=/127.0.0.1,port=49753,localport=22]
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=49758,localport=6100]
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=49759,localport=22]
+T.isclose TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=49761,localport=6100]
+T.isclose TEST
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=49762,localport=22]
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=49767,localport=6100]
+T.isclose TEST
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=49768,localport=22]
+TEST
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=49770,localport=6100]
+T.isclose TEST
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=49771,localport=22]
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=49773,localport=6100]
+T.isclose TEST
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=49774,localport=22]
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=49776,localport=6100]
+T.isclose TEST
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=49777,localport=22]
+TEST
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=49779,localport=6100]
+T.isclose TEST
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=49780,localport=22]
+Close:Socket[addr=/127.0.0.1,port=49779,localport=6100]
+Close:Socket[addr=/127.0.0.1,port=49780,localport=22]
+TEST
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=49782,localport=6100]
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=49783,localport=22]
+T.isclose TEST
+Close:Socket[addr=/127.0.0.1,port=49782,localport=6100]
+Close:Socket[addr=/127.0.0.1,port=49783,localport=22]
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=49785,localport=6100]
+T.isclose TEST
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=49786,localport=22]
+TEST
+Close:Socket[addr=/127.0.0.1,port=49785,localport=6100]
+Close:Socket[addr=/127.0.0.1,port=49786,localport=22]
+TEST
+TEST
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=49788,localport=6100]
+T.isclose TEST
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=49789,localport=22]
+Close:Socket[addr=/127.0.0.1,port=49788,localport=6100]
+Close:Socket[addr=/127.0.0.1,port=49789,localport=22]
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+Close:Socket[addr=/127.0.0.1,port=49777,localport=22]
+Close:Socket[addr=/127.0.0.1,port=49776,localport=6100]
+TEST
+Close:Socket[addr=/127.0.0.1,port=49774,localport=22]
+Close:Socket[addr=/127.0.0.1,port=49773,localport=6100]
+TEST
+Close:Socket[addr=/127.0.0.1,port=49771,localport=22]
+Close:Socket[addr=/127.0.0.1,port=49770,localport=6100]
+TEST
+Close:Socket[addr=/127.0.0.1,port=49768,localport=22]
+Close:Socket[addr=/127.0.0.1,port=49767,localport=6100]
+TEST
+Close:Socket[addr=/127.0.0.1,port=49762,localport=22]
+Close:Socket[addr=/127.0.0.1,port=49761,localport=6100]
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+Close:Socket[addr=/127.0.0.1,port=49759,localport=22]
+Close:Socket[addr=/127.0.0.1,port=49758,localport=6100]
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST

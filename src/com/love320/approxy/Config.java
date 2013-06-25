@@ -16,7 +16,7 @@ public class Config {
 	//中转服务器
 	public static int PROXY_TO_DOC=22;
 	//public static String PROXY_HOST="127.0.0.1"; //proxy host
-	public static String PROXY_HOST="aliyun.love320.com"; //proxy host
+	public static String PROXY_HOST="kingdom.love320.com"; //proxy host
 	
 	//其它
 	public static String TEST = "TEST";
@@ -34,10 +34,10 @@ public class Config {
 		//IPORTLIST.add(IPort.reverseProxy(6580,"172.16.209.12",8080)); //6522 -> 172.16.209.12:8080
 		
 		//IPORTLIST.add(IPort.reverseProxy(6555,"192.168.173.23",22)); //6555 ->192.168.173.23:22
-		//IPORTLIST.add(IPort.reverseProxy(6100,"192.168.1.103",22)); //6100 ->192.168.1.100:22
+		//IPORTLIST.add(IPort.reverseProxy(6100,"192.168.1.100",22)); //6100 ->192.168.1.100:22
 		
 		//普通代理
-		IPORTLIST.add(IPort.proxy(6599, "113.243.142.23", 9999));
+		IPORTLIST.add(IPort.proxy(6599, "192.168.1.1", 9999));
 		
 	}
 	

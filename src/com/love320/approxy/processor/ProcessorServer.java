@@ -9,6 +9,7 @@ import java.net.UnknownHostException;
 
 import com.love320.approxy.Config;
 import com.love320.approxy.manager.P2PManager;
+import com.love320.approxy.manager.P2PSocket;
 
 
 
@@ -18,13 +19,15 @@ public class ProcessorServer implements Runnable {
 
 	private static Socket socketT = null;
 	
+	public static boolean isconn = false;
+	
 	@Override
 	public void run() {
 		try {
 				if(serverSocket == null) serverSocket = new ServerSocket(Config.PROXY_TO_DOC);
 				P2PManager.msg("Started(Listen T Port:"+Config.PROXY_TO_DOC+")");
 				
-				StayConnected stayconn = new StayConnected();
+				StayConnectedServer stayconn = new StayConnectedServer();
 				new Thread(stayconn).start();//提供专用通信线程保持通信
 				
 				initSocket();
@@ -38,6 +41,7 @@ public class ProcessorServer implements Runnable {
 	
 	public static void reSocketT(){
 		P2PManager.msg("reSocketT:"+socketT);
+		P2PSocket.socketClose(socketT);
 		socketT = null;
 		try {
 			initSocket();
@@ -59,7 +63,8 @@ public class ProcessorServer implements Runnable {
 			int temp = 0;
 			temp = socketT.getInputStream().read(buffer);
 			if(temp==-1)break;
-			String msg =new String(buffer,0,temp);
+			String msg = new String(buffer,0,temp);
+			isconn = true;//收到信息
 			P2PManager.msg(msg);
 		}
 	}
