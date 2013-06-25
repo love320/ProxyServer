@@ -16,47 +16,19 @@ import com.love320.approxy.processor.StayConnected;
 
 
 
-public class P2PServer implements Runnable{
+public class P2PServer{
 	
-	private IPort iport;
-
 	public static void main(String[] args) throws IOException {
 		
 		FileOutMsg fom = new FileOutMsg(new File(Config.FILESERVER));//日志
 		new Thread(fom).start();//启动日志
 		
-		ProcessorServer processor = new ProcessorServer();
-		new Thread(processor).start();//启动专用通信线程
+		P2PServerProxy.action();//普通代理服务
 		
-		for(IPort iport:Config.IPORTLIST){
-			P2PManager.msg("Started(Listen Port:"+iport.getProxy()+")");
-			P2PServer server= new P2PServer();
-			server.setIport(iport);
-			new Thread(server).start();
-		}
-	}
-
-	@Override
-	public void run() {
-		ServerSocket proxySocket= null;
-		try {
-			proxySocket = new ServerSocket(iport.getProxy());
-			while (true) {
-					Socket clientSocket = proxySocket.accept();//取客户连接
-					P2PManager.msg("My Client:"+clientSocket);
-					ActionSocketServer ass = new ActionSocketServer(clientSocket,iport.getIp(),iport.getPort());//绑定相关连接
-					new Thread(ass).start();//启动
-			}
-		} catch (IOException e1) {
-			e1.printStackTrace();
-		}
+		P2PServerReverse.action();//逆向代理服务
 		
 	}
 
-	public void setIport(IPort iport) {
-		this.iport = iport;
-	}
-	
 	
 
 }

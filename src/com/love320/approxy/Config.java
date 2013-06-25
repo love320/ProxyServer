@@ -26,13 +26,19 @@ public class Config {
 		
 	//端口映射表
 	static{
-		IPORTLIST.add(new IPort(6522,"127.0.0.1",22)); //6522 -> 127.0.0.1:22
 		
-		IPORTLIST.add(new IPort(6512,"172.16.209.12",22)); //6522 -> 172.16.209.12:22
-		//IPORTLIST.add(new IPort(6580,"172.16.209.12",8080)); //6522 -> 172.16.209.12:8080
+		//.逆向突破式代理
+		IPORTLIST.add(IPort.reverseProxy(6522,"127.0.0.1",22)); //6522 -> 127.0.0.1:22
 		
-		//IPORTLIST.add(new IPort(6555,"192.168.173.23",22)); //6555 ->192.168.173.23:22
-		//IPORTLIST.add(new IPort(6100,"192.168.1.103",22)); //6100 ->192.168.1.100:22
+		IPORTLIST.add(IPort.reverseProxy(6512,"172.16.209.12",22)); //6522 -> 172.16.209.12:22
+		//IPORTLIST.add(IPort.reverseProxy(6580,"172.16.209.12",8080)); //6522 -> 172.16.209.12:8080
+		
+		//IPORTLIST.add(IPort.reverseProxy(6555,"192.168.173.23",22)); //6555 ->192.168.173.23:22
+		//IPORTLIST.add(IPort.reverseProxy(6100,"192.168.1.103",22)); //6100 ->192.168.1.100:22
+		
+		//普通代理
+		IPORTLIST.add(IPort.proxy(6599, "113.243.142.23", 9999));
+		
 	}
 	
 
