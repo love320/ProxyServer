@@ -1028,3 +1028,143 @@ Close:Socket[addr=/192.168.1.100,port=22,localport=49763]
 Close:Socket[addr=/127.0.0.1,port=22,localport=49762]
 Close:Socket[addr=/192.168.1.100,port=22,localport=49760]
 Close:Socket[addr=/127.0.0.1,port=22,localport=49759]
+File: E:\git\ProxyServer.git\proxyFileClient.txt
+Started Listen Port:kingdom.love320.com:22
+StayConnectedClient OK .
+clinet for server Go ...
+Started Listen Port:127.0.0.1:22
+File: E:\git\ProxyServer.git\proxyFileClient.txt
+StayConnectedClient OK .
+clinet for server Go ...
+Started Listen Port:127.0.0.1:22
+File: E:\git\ProxyServer.git\proxyFileClient.txt
+StayConnectedClient OK .
+clinet for server Go ...
+clinet for server Go ...
+clinet for server Go ...
+clinet for server Go ...
+clinet for server Go ...
+clinet for server Go ...
+@172.16.209.12#22@
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=22,localport=49894]
+clinet for server Go ...
+Started Listen Port:127.0.0.1:22
+File: E:\git\ProxyServer.git\proxyFileClient.txt
+StayConnectedClient OK .
+clinet for server Go ...
+clinet for server Go ...
+Started Listen Port:127.0.0.1:22
+File: E:\git\ProxyServer.git\proxyFileClient.txt
+StayConnectedClient OK .
+clinet for server Go ...
+@192.168.0.125#6512@
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=22,localport=49906]
+Target ClientSocket:Socket[addr=/192.168.0.125,port=6512,localport=49907]
+Close:Socket[addr=/127.0.0.1,port=22,localport=49906]
+Close:Socket[addr=/192.168.0.125,port=6512,localport=49907]
+@192.168.0.125#6512@
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=22,localport=49909]
+Target ClientSocket:Socket[addr=/192.168.0.125,port=6512,localport=49910]
+Close:Socket[addr=/192.168.0.125,port=6512,localport=49910]
+Close:Socket[addr=/127.0.0.1,port=22,localport=49909]
+clinet for server Go ...
+clinet for server Go ...
+@192.168.0.125#6512@
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=22,localport=49923]
+Target ClientSocket:Socket[addr=/192.168.0.125,port=6512,localport=49924]
+Close:Socket[addr=/192.168.0.125,port=6512,localport=49924]
+Close:Socket[addr=/127.0.0.1,port=22,localport=49923]
+clinet for server Go ...
+clinet for server Go ...
+@192.168.0.125#6512@
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=22,localport=49940]
+Target ClientSocket:Socket[addr=/192.168.0.125,port=6512,localport=49941]
+Close:Socket[addr=/192.168.0.125,port=6512,localport=49941]
+Close:Socket[addr=/127.0.0.1,port=22,localport=49940]
+@192.168.0.125#6512@
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=22,localport=49944]
+Target ClientSocket:Socket[addr=/192.168.0.125,port=6512,localport=49945]
+Close:Socket[addr=/127.0.0.1,port=22,localport=49944]
+Close:Socket[addr=/192.168.0.125,port=6512,localport=49945]
+@192.168.0.125#6512@
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=22,localport=49947]
+Target ClientSocket:Socket[addr=/192.168.0.125,port=6512,localport=49948]
+Close:Socket[addr=/192.168.0.125,port=6512,localport=49948]
+Close:Socket[addr=/127.0.0.1,port=22,localport=49947]
+clinet for server Go ...
+@192.168.0.125#6512@
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=22,localport=50219]
+Target ClientSocket:Socket[addr=/192.168.0.125,port=6512,localport=50220]
+Close:Socket[addr=/127.0.0.1,port=22,localport=50219]
+Close:Socket[addr=/192.168.0.125,port=6512,localport=50220]
+@192.168.0.125#6512@
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=22,localport=50222]
+Target ClientSocket:Socket[addr=/192.168.0.125,port=6512,localport=50223]
+Close:Socket[addr=/127.0.0.1,port=22,localport=50222]
+Close:Socket[addr=/192.168.0.125,port=6512,localport=50223]
+@192.168.0.125#6512@
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=22,localport=50225]
+Target ClientSocket:Socket[addr=/192.168.0.125,port=6512,localport=50226]
+Close:Socket[addr=/192.168.0.125,port=6512,localport=50226]
+Close:Socket[addr=/127.0.0.1,port=22,localport=50225]
+clinet for server Go ...
+clinet for server Go ...
+clinet for server Go ...
+@192.168.0.125#6512@
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=22,localport=50242]
+Target ClientSocket:Socket[addr=/192.168.0.125,port=6512,localport=50243]
+Close:Socket[addr=/127.0.0.1,port=22,localport=50242]
+Close:Socket[addr=/192.168.0.125,port=6512,localport=50243]
+@192.168.0.125#6512@
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=22,localport=50245]
+Target ClientSocket:Socket[addr=/192.168.0.125,port=6512,localport=50246]
+Close:Socket[addr=/127.0.0.1,port=22,localport=50245]
+Close:Socket[addr=/192.168.0.125,port=6512,localport=50246]
+@192.168.0.125#6512@
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=22,localport=50250]
+Target ClientSocket:Socket[addr=/192.168.0.125,port=6512,localport=50251]
+Close:Socket[addr=/127.0.0.1,port=22,localport=50250]
+Close:Socket[addr=/192.168.0.125,port=6512,localport=50251]
+clinet for server Go ...
+clinet for server Go ...
+@192.168.0.125#6512@
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=22,localport=50273]
+Target ClientSocket:Socket[addr=/192.168.0.125,port=6512,localport=50274]
+Close:Socket[addr=/127.0.0.1,port=22,localport=50273]
+Close:Socket[addr=/192.168.0.125,port=6512,localport=50274]
+@192.168.0.125#6512@
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=22,localport=50276]
+Target ClientSocket:Socket[addr=/192.168.0.125,port=6512,localport=50277]
+clinet for server Go ...
+Close:Socket[addr=/192.168.0.125,port=6512,localport=50277]
+Close:Socket[addr=/127.0.0.1,port=22,localport=50276]
+clinet for server Go ...
+clinet for server Go ...
+@192.168.0.125#6512@
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=22,localport=50287]
+Target ClientSocket:Socket[addr=/192.168.0.125,port=6512,localport=50288]
+Close:Socket[addr=/192.168.0.125,port=6512,localport=50288]
+Close:Socket[addr=/127.0.0.1,port=22,localport=50287]
+clinet for server Go ...
+clinet for server Go ...
+@192.168.0.125#6512@
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=22,localport=50304]
+Target ClientSocket:Socket[addr=/192.168.0.125,port=6512,localport=50305]
+Close:Socket[addr=/127.0.0.1,port=22,localport=50304]
+Close:Socket[addr=/192.168.0.125,port=6512,localport=50305]
+@192.168.0.125#6512@
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=22,localport=50307]
+Target ClientSocket:Socket[addr=/192.168.0.125,port=6512,localport=50308]
+Close:Socket[addr=/192.168.0.125,port=6512,localport=50308]
+Close:Socket[addr=/127.0.0.1,port=22,localport=50307]
+@192.168.0.125#6512@
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=22,localport=50310]
+Target ClientSocket:Socket[addr=/192.168.0.125,port=6512,localport=50311]
+@192.168.0.125#6512@
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=22,localport=50313]
+Target ClientSocket:Socket[addr=/192.168.0.125,port=6512,localport=50314]
+Close:Socket[addr=/192.168.0.125,port=6512,localport=50314]
+Close:Socket[addr=/127.0.0.1,port=22,localport=50313]
+Close:Socket[addr=/192.168.0.125,port=6512,localport=50311]
+Close:Socket[addr=/127.0.0.1,port=22,localport=50310]
+clinet for server Go ...

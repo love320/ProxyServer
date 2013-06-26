@@ -2108,3 +2108,1043 @@ TEST
 TEST
 TEST
 TEST
+Started(Listen Port:6599) for P2PServerProxy
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen T Port:22)
+StayConnected OK .
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=49543,localport=6512]
+reSocketT:null
+Close:null
+Close:Socket[addr=/127.0.0.1,port=49543,localport=6512]
+Started(Listen Port:6599) for P2PServerProxy
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen T Port:22)
+StayConnected OK .
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6599) for P2PServerProxy
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen T Port:22)
+StayConnected OK .
+Started(Listen Port:6599) for P2PServerProxy
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen T Port:22)
+StayConnected OK .
+socketT:Socket[addr=/127.0.0.1,port=49879,localport=22]
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+Started(Listen Port:6599) for P2PServerProxy
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen T Port:22)
+StayConnected OK .
+socketT:Socket[addr=/127.0.0.1,port=49884,localport=22]
+TEST
+TEST
+TEST
+TEST
+Started(Listen Port:6599) for P2PServerProxy
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6320) for P2PManagerServer 
+Started(Listen T Port:22)
+StayConnected OK .
+socketT:Socket[addr=/127.0.0.1,port=49889,localport=22]
+TEST
+TEST
+TEST
+TEST
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=49892,localport=6320]
+���� ����'������
+TEST
+ls
+
+
+TEST
+ls
+
+
+ls
+
+
+TEST
+ls
+
+
+ls
+
+
+TEST
+TEST
+TEST
+TEST
+TEST
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=49893,localport=6512]
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=49894,localport=22]
+ls
+
+
+TEST
+ls
+
+
+ls
+
+
+ls
+
+
+ls
+
+
+ls
+
+
+TEST
+TEST
+TEST
+reSocketT:Socket[addr=/127.0.0.1,port=49889,localport=22]
+Close:Socket[addr=/127.0.0.1,port=49889,localport=22]
+socketT:Socket[addr=/127.0.0.1,port=49896,localport=22]
+TESTTESTTESTTESTTESTTEST
+TEST
+TEST
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6599) for P2PServerProxy
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6320) for P2PManagerServer 
+Started(Listen T Port:22)
+StayConnected OK .
+socketT:Socket[addr=/127.0.0.1,port=49901,localport=22]
+TEST
+TEST
+TEST
+TEST
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6599) for P2PServerProxy
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen T Port:22)
+Started(Listen Port:6320) for P2PManagerServer 
+StayConnected OK .
+socketT:Socket[addr=/127.0.0.1,port=49903,localport=22]
+TEST
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=49905,localport=6512]
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=49906,localport=22]
+Close:Socket[addr=/127.0.0.1,port=49905,localport=6512]
+Close:Socket[addr=/127.0.0.1,port=49906,localport=22]
+TEST
+TEST
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=49908,localport=6512]
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=49909,localport=22]
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=49914,localport=6320]
+���� ����'������
+TEST
+ls
+
+
+ls
+
+
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6599) for P2PServerProxy
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen T Port:22)
+Started(Listen Port:6320) for P2PManagerServer 
+StayConnected OK .
+socketT:Socket[addr=/127.0.0.1,port=49920,localport=22]
+TEST
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=49922,localport=6512]
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=49923,localport=22]
+TEST
+TEST
+TEST
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=49927,localport=6320]
+���� ����'������
+TEST
+TEST
+TEST
+ls
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+
+
+TEST
+TEST
+TEST
+TEST
+TEST
+ls
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+
+
+TEST
+TEST
+TEST
+TEST
+TEST
+ls
+
+
+TEST
+ls
+TEST
+TEST
+
+
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+ls
+
+
+TEST
+ls
+
+
+ls
+
+
+TEST
+TEST
+Started(Listen Port:6599) for P2PServerProxy
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6320) for P2PManagerServer 
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen T Port:22)
+StayConnected OK .
+socketT:Socket[addr=/127.0.0.1,port=49938,localport=22]
+TEST
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=49939,localport=6512]
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=49940,localport=22]
+TEST
+TEST
+TEST
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=49942,localport=6320]
+���� ����'������
+TEST
+ls
+
+
+TEST
+ls
+
+
+ls
+
+
+ls
+
+
+ls
+
+
+TEST
+ls
+
+
+TEST
+TEST
+TEST
+TEST
+kill 1372218590735_/127.0.0.1
+Close:Socket[addr=/127.0.0.1,port=49939,localport=6512]
+
+
+Close:Socket[addr=/127.0.0.1,port=49940,localport=22]
+Close:Socket[addr=/127.0.0.1,port=49939,localport=6512]
+TEST
+TEST
+TEST
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=49943,localport=6512]
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=49944,localport=22]
+Close:Socket[addr=/127.0.0.1,port=49943,localport=6512]
+Close:Socket[addr=/127.0.0.1,port=49944,localport=22]
+TEST
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=49946,localport=6512]
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=49947,localport=22]
+ls
+
+
+TEST
+ls
+
+
+TEST
+kill 1372218661134_/127.0.0.1
+Close:Socket[addr=/127.0.0.1,port=49946,localport=6512]
+
+
+Close:Socket[addr=/127.0.0.1,port=49947,localport=22]
+Close:Socket[addr=/127.0.0.1,port=49946,localport=6512]
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+sdfs
+
+
+TEST
+TEST
+ 
+
+
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+ls
+
+
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+ls
+
+
+ls
+
+
+TEST
+ls
+
+
+TEST
+TEST
+ls
+
+
+TEST
+TEST
+ls
+
+
+TEST
+TEST
+TEST
+ls
+
+
+TEST
+TEST
+TEST
+TEST
+ls
+
+
+TEST
+TEST
+TEST
+��
+��
+
+
+
+TEST
+
+
+ls
+
+
+TEST
+TEST
+kill 1372218657827_/127.0.0.1 1372218657823_/127.0.0.1 1372218585641_/127.0.0.1 1372218661131_/127.0.0.1 1372218590747_/127.0.0.1
+Close:Socket[addr=/127.0.0.1,port=49943,localport=6512]
+Close:Socket[addr=/127.0.0.1,port=49943,localport=6512]
+Close:Socket[addr=/127.0.0.1,port=49938,localport=22]
+Close:Socket[addr=/127.0.0.1,port=49946,localport=6512]
+Close:Socket[addr=/127.0.0.1,port=49939,localport=6512]
+
+
+ls
+
+
+ls
+
+
+ls
+
+
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=50216,localport=6512]
+Close:Socket[addr=/127.0.0.1,port=50216,localport=6512]
+ls
+
+
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=50217,localport=6512]
+Close:Socket[addr=/127.0.0.1,port=50217,localport=6512]
+reSocketT:Socket[addr=/127.0.0.1,port=49938,localport=22]
+Close:Socket[addr=/127.0.0.1,port=49938,localport=22]
+socketT:Socket[addr=/127.0.0.1,port=50214,localport=22]
+TESTTESTTESTTESTTESTTEST
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=50218,localport=6512]
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=50219,localport=22]
+Close:Socket[addr=/127.0.0.1,port=50218,localport=6512]
+Close:Socket[addr=/127.0.0.1,port=50219,localport=22]
+TEST
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=50221,localport=6512]
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=50222,localport=22]
+Close:Socket[addr=/127.0.0.1,port=50221,localport=6512]
+Close:Socket[addr=/127.0.0.1,port=50222,localport=22]
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=50224,localport=6512]
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=50225,localport=22]
+TEST
+ls
+
+
+TEST
+TEST
+TEST
+killall
+
+
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+ls
+
+
+TEST
+ls
+
+
+ls
+
+
+ls
+
+
+ls
+
+
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6599) for P2PServerProxy
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6320) for P2PManagerServer 
+Started(Listen T Port:22)
+StayConnected OK .
+socketT:Socket[addr=/127.0.0.1,port=50239,localport=22]
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=50240,localport=6512]
+Close:Socket[addr=/127.0.0.1,port=50240,localport=6512]
+TEST
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=50241,localport=6512]
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=50242,localport=22]
+Close:Socket[addr=/127.0.0.1,port=50241,localport=6512]
+Close:Socket[addr=/127.0.0.1,port=50242,localport=22]
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=50244,localport=6512]
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=50245,localport=22]
+Close:Socket[addr=/127.0.0.1,port=50244,localport=6512]
+Close:Socket[addr=/127.0.0.1,port=50245,localport=22]
+TEST
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=50249,localport=6512]
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=50250,localport=22]
+Close:Socket[addr=/127.0.0.1,port=50249,localport=6512]
+Close:Socket[addr=/127.0.0.1,port=50250,localport=22]
+TEST
+TEST
+TEST
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=50254,localport=6320]
+TEST
+TEST
+TEST
+TEST
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=50257,localport=6320]
+���� ����'������
+ls
+
+
+TEST
+TEST
+ls
+
+
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+ls
+
+
+ls
+
+
+ls
+
+
+TEST
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6599) for P2PServerProxy
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6320) for P2PManagerServer 
+Started(Listen T Port:22)
+StayConnected OK .
+socketT:Socket[addr=/127.0.0.1,port=50267,localport=22]
+TEST
+TEST
+TEST
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=50272,localport=6512]
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=50273,localport=22]
+Close:Socket[addr=/127.0.0.1,port=50272,localport=6512]
+Close:Socket[addr=/127.0.0.1,port=50273,localport=22]
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=50275,localport=6512]
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=50276,localport=22]
+TEST
+TEST
+TEST
+TEST
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=50279,localport=6320]
+���� ����'������
+ls
+
+
+TEST
+TEST
+TEST
+TEST
+kill 1372219511711/127.0.0.1
+Close:Socket[addr=/127.0.0.1,port=50267,localport=22]
+
+
+kill 1372219529443/127.0.0.1
+Close:Socket[addr=/127.0.0.1,port=50276,localport=22]
+
+
+Close:Socket[addr=/127.0.0.1,port=50275,localport=6512]
+Close:Socket[addr=/127.0.0.1,port=50276,localport=22]
+killall
+
+
+ls
+
+
+killall
+
+
+ls
+
+
+killall
+
+
+ls
+
+
+kill 1372219525974/127.0.0.1
+Close:Socket[addr=/127.0.0.1,port=50272,localport=6512]
+
+
+reSocketT:Socket[addr=/127.0.0.1,port=50267,localport=22]
+Close:Socket[addr=/127.0.0.1,port=50267,localport=22]
+socketT:Socket[addr=/127.0.0.1,port=50280,localport=22]
+TESTTESTTESTTESTTESTTEST
+ls
+
+
+TEST
+kill 1372219525965/127.0.0.1
+Close:Socket[addr=/127.0.0.1,port=50272,localport=6512]
+
+
+ls
+
+
+TEST
+killall
+
+
+ls
+
+
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+killall
+
+
+TEST
+TEST
+TEST
+TEST
+TEST
+killall
+
+
+TEST
+killall
+
+
+TEST
+Started(Listen Port:6599) for P2PServerProxy
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen T Port:22)
+Started(Listen Port:6320) for P2PManagerServer 
+StayConnected OK .
+socketT:Socket[addr=/127.0.0.1,port=50283,localport=22]
+TEST
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=50286,localport=6512]
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=50287,localport=22]
+TEST
+TEST
+TEST
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=50289,localport=6320]
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=50290,localport=6320]
+���� ����'������
+ls
+
+
+TEST
+TEST
+ls
+
+
+TEST
+ls
+
+
+killall
+
+
+TEST
+TEST
+TEST
+TEST
+TEST
+Started(Listen Port:6599) for P2PServerProxy
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen T Port:22)
+Started(Listen Port:6320) for P2PManagerServer 
+StayConnected OK .
+socketT:Socket[addr=/127.0.0.1,port=50294,localport=22]
+TEST
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=50295,localport=6320]
+TEST
+TEST
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=50296,localport=6320]
+TEST
+TEST
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=50297,localport=6320]
+���� ����'������
+ls
+
+
+TEST
+ls
+
+
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=50298,localport=6320]
+TEST
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=50300,localport=6320]
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=50301,localport=6320]
+TEST
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=50302,localport=6320]
+ls
+
+
+ls
+
+
+TEST
+ls
+
+
+Close:Socket[addr=/127.0.0.1,port=50302,localport=6320]
+TEST
+Close:Socket[addr=/127.0.0.1,port=50301,localport=6320]
+Close:Socket[addr=/127.0.0.1,port=50300,localport=6320]
+Close:Socket[addr=/127.0.0.1,port=50298,localport=6320]
+TEST
+Close:Socket[addr=/127.0.0.1,port=50295,localport=6320]
+Close:Socket[addr=/127.0.0.1,port=50296,localport=6320]
+TEST
+TEST
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=50303,localport=6512]
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=50304,localport=22]
+Close:Socket[addr=/127.0.0.1,port=50303,localport=6512]
+Close:Socket[addr=/127.0.0.1,port=50304,localport=22]
+TEST
+ls
+
+
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=50306,localport=6512]
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=50307,localport=22]
+TEST
+ls
+
+
+TEST
+killall
+Close:Socket[addr=/127.0.0.1,port=50306,localport=6512]
+Close:Socket[addr=/127.0.0.1,port=50307,localport=22]
+Close:Socket[addr=/127.0.0.1,port=50306,localport=6512]
+TEST
+TEST
+TEST
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=50309,localport=6512]
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=50310,localport=22]
+TEST
+TEST
+TEST
+TEST
+My Client for P2PServerReverse:Socket[addr=/127.0.0.1,port=50312,localport=6512]
+PROXY_TO_DOC Server:Socket[addr=/127.0.0.1,port=50313,localport=22]
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=50315,localport=6320]
+���� ����'������
+TEST
+ls
+
+
+TEST
+ls
+
+
+TEST
+ls
+
+
+killall
+Close:Socket[addr=/127.0.0.1,port=50303,localport=6512]
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+Close:Socket[addr=/127.0.0.1,port=50313,localport=22]
+Close:Socket[addr=/127.0.0.1,port=50312,localport=6512]
+Close:Socket[addr=/127.0.0.1,port=50310,localport=22]
+Close:Socket[addr=/127.0.0.1,port=50309,localport=6512]
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+TEST
+Started(Listen Port:6599) for P2PServerProxy
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6599) for P2PServerProxy
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6320) for P2PManagerServer 
+Started(Listen T Port:22)
+StayConnected OK .
