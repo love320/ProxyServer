@@ -17,10 +17,6 @@ public class ProcessorServer implements Runnable {
 	
 	private static ServerSocket serverSocket = null;
 
-	private static Socket socketT = null;
-	
-	public static boolean isconn = false;
-	
 	@Override
 	public void run() {
 		try {
@@ -40,9 +36,9 @@ public class ProcessorServer implements Runnable {
 	}
 	
 	public static void reSocketT(){
-		P2PManager.msg("reSocketT:"+socketT);
-		P2PSocket.socketClose(socketT);
-		socketT = null;
+		P2PManager.msg("reSocketT:"+P2PManager.socketT);
+		P2PSocket.socketClose(P2PManager.socketT);
+		P2PManager.socketT = null;
 		try {
 			initSocket();
 		} catch (IOException e) {
@@ -51,8 +47,8 @@ public class ProcessorServer implements Runnable {
 	}
 	
 	public static void initSocket() throws IOException{
-		if(socketT == null) socketT = getSocket();
-		P2PManager.msg("socketT:"+socketT);
+		if(P2PManager.socketT == null) P2PManager.socketT = getSocket();
+		P2PManager.msg("socketT:"+P2PManager.socketT);
 		read();
 		reSocketT();//重新获取
 	}
@@ -61,10 +57,10 @@ public class ProcessorServer implements Runnable {
 		while(true){
 			byte[] buffer = new byte[1024*4];
 			int temp = 0;
-			temp = socketT.getInputStream().read(buffer);
+			temp = P2PManager.socketT.getInputStream().read(buffer);
 			if(temp==-1)break;
 			String msg = new String(buffer,0,temp);
-			isconn = true;//收到信息
+			P2PManager.isconn = true;//收到信息
 			P2PManager.msg(msg);
 		}
 	}
@@ -82,18 +78,20 @@ public class ProcessorServer implements Runnable {
 	}
 	
 	public static Socket getSocket() throws IOException{
-		return serverSocket.accept();
+		Socket newsocket =serverSocket.accept();
+		P2PManager.addSocketMap(newsocket);//加入容器
+		return newsocket;
 	}
 
 	public static boolean isclose(){
 		try {
-			if(socketT == null ) initSocket();
+			if(P2PManager.socketT == null ) initSocket();
 			return outWrite("T.isclose "+Config.TEST);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}  
 		try {
-			socketT.close();
+			P2PManager.socketT.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -105,7 +103,7 @@ public class ProcessorServer implements Runnable {
 	}
 	
 	public static boolean outWrite(byte[] bytes) throws IOException{
-		DataOutputStream out = new DataOutputStream(socketT.getOutputStream());
+		DataOutputStream out = new DataOutputStream(P2PManager.socketT.getOutputStream());
 		out.write(bytes);
 		out.flush();//即刻写入
 		return true;

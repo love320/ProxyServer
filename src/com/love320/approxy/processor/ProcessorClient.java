@@ -2,7 +2,6 @@ package com.love320.approxy.processor;
 
 import java.io.DataOutputStream;
 import java.io.IOException;
-import java.io.OutputStream;
 import java.net.Socket;
 import java.net.UnknownHostException;
 import java.util.List;
@@ -12,29 +11,26 @@ import com.love320.approxy.manager.IPort;
 import com.love320.approxy.manager.P2PManager;
 
 
-
 public class ProcessorClient implements Runnable {
 
-	private static Socket socketT = null;
-	
 	@Override
 	public void run() {
 			try {
-				socketT = new Socket(Config.PROXY_HOST,Config.PROXY_TO_DOC);
+				P2PManager.socketT = new Socket(Config.PROXY_HOST,Config.PROXY_TO_DOC);
 				read();//读取
 			} catch (UnknownHostException e) {
 				e.printStackTrace();
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-			socketT = null;//异常后，清空连接
+			P2PManager.socketT = null;//异常后，清空连接
 	}
 	
 	public void read() throws IOException{
 		while(true){
 			byte[] buffer = new byte[1024*4];
 			int temp = 0;
-			temp = socketT.getInputStream().read(buffer);
+			temp = P2PManager.socketT.getInputStream().read(buffer);
 			if(temp==-1)break;
 			String msg =new String(buffer,0,temp);
 			P2PManager.msg(msg);
@@ -55,7 +51,7 @@ public class ProcessorClient implements Runnable {
 	
 	public static boolean isclose(){
 		try {
-			if(socketT == null ) return false;
+			if(P2PManager.socketT == null ) return false;
 			outWrite(Config.TEST.getBytes());
 			return true;
 		} catch (IOException e) {
@@ -69,7 +65,7 @@ public class ProcessorClient implements Runnable {
 	}
 	
 	public static boolean outWrite(byte[] bytes) throws IOException{
-		DataOutputStream out = new DataOutputStream(socketT.getOutputStream());
+		DataOutputStream out = new DataOutputStream(P2PManager.socketT.getOutputStream());
 		out.write(bytes);
 		out.flush();//即刻写入
 		return true;

@@ -11,8 +11,8 @@ public class StayConnectedServer extends java.lang.Thread {
 		for(;;){
 				try {
 					sleep(1000*30);
-					if(ProcessorServer.isconn) {
-						ProcessorServer.isconn = false;
+					if(P2PManager.isconn) {
+						P2PManager.isconn = false;
 					}else{
 						ProcessorServer.reSocketT();//重新获取新的
 					}

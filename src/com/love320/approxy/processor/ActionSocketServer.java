@@ -23,7 +23,7 @@ public class ActionSocketServer implements Runnable {
 
 	@Override
 	public void run() {
-		if(!ProcessorServer.isclose()){
+		if(!P2PManager.isconn){
 			P2PSocket.socketClose(clientSocket);
 			return;//关闭
 		}

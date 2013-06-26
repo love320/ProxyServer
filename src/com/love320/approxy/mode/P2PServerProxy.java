@@ -36,6 +36,7 @@ public class P2PServerProxy implements Runnable{
 			ServerSocket proxySocket = new ServerSocket(iport.getProxy());
 			while (true) {
 					Socket clientSocket = proxySocket.accept();//取客户连接
+					P2PManager.addSocketMap(clientSocket);//加入容器
 					P2PManager.msg("My Client for P2PServerProxy:"+clientSocket);
 					Socket socket = new Socket(iport.getIp(),iport.getPort());
 					P2PManager.msg("My Server for P2PServerProxy:"+socket);

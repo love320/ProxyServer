@@ -1,19 +1,12 @@
-package com.love320.approxy.mode;
+package com.love320.approxy.go;
 
 import java.io.File;
 import java.io.IOException;
-import java.net.ServerSocket;
-import java.net.Socket;
-
 import com.love320.approxy.Config;
 import com.love320.approxy.manager.FileOutMsg;
-import com.love320.approxy.manager.IPort;
-import com.love320.approxy.manager.P2PManager;
-import com.love320.approxy.processor.ActionSocketServer;
-import com.love320.approxy.processor.ProcessorServer;
-import com.love320.approxy.processor.StayConnectedServer;
-
-
+import com.love320.approxy.mode.P2PManagerServer;
+import com.love320.approxy.mode.P2PServerProxy;
+import com.love320.approxy.mode.P2PServerReverse;
 
 
 public class P2PServer{
@@ -22,6 +15,8 @@ public class P2PServer{
 		
 		FileOutMsg fom = new FileOutMsg(new File(Config.FILESERVER));//日志
 		new Thread(fom).start();//启动日志
+		
+		P2PManagerServer.action();//管理服务
 		
 		P2PServerProxy.action();//普通代理服务
 		

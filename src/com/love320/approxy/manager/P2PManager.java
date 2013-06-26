@@ -2,9 +2,27 @@ package com.love320.approxy.manager;
 
 import java.net.Socket;
 import java.util.ArrayList;
+import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class P2PManager {
+	
+	public static Socket socketT  = null; //专用通信线程
+	public static boolean isconn = false;//专用通信状态，true为正常，false为断开 
+	
+	public static int connum = 0;
+	
+	public static Map<String, Socket> socketMap = new HashMap<String, Socket>();
+	
+	//添加到Socket容器
+	public static void addSocketMap(Socket socket){
+		Date date = new Date();
+		String key = "Z"+newconnum()+"-"+date.getTime() +"-"+ socket.getInetAddress();
+		msg("Add Socket key:"+key);
+		socketMap.put(key, socket);
+	}
 	
 	public static void msg(String message){
 		System.out.println("Msg :"+message);
@@ -13,6 +31,8 @@ public class P2PManager {
 	
 	//绑定通信
 	public static void P2PGO(Socket clientSocket,Socket serverSocket){
+		P2PManager.addSocketMap(clientSocket);//加入容器
+		P2PManager.addSocketMap(serverSocket);//加入容器
 		
 		P2PSocket p2pC = new P2PSocket(clientSocket,serverSocket);
 		P2PSocket p2pS = new P2PSocket(serverSocket,clientSocket);
@@ -42,4 +62,9 @@ public class P2PManager {
 		return list;
 	}
 
+	public static int newconnum(){
+		connum ++;
+		return connum;
+	}
+	
 }
