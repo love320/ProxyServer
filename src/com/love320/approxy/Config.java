@@ -37,7 +37,7 @@ public class Config {
 		//IPORTLIST.add(IPort.reverseProxy(6100,"192.168.1.100",22)); //6100 ->192.168.1.100:22
 		
 		//普通代理
-		IPORTLIST.add(IPort.proxy(6599, "192.168.1.1", 9999));
+		IPORTLIST.add(IPort.proxy(6599, "113.243.142.23", 9999));
 		
 	}
 	
