@@ -5,5 +5,5 @@
 
 *.war
 *.ear
-.proxyFileClient.txt
-.proxyFileServer.txt
+./proxyFileClient.txt
+./proxyFileServer.txt
