@@ -43,6 +43,8 @@ public class P2PSocket  implements Runnable{
 			socket.close();
 		} catch (IOException e) {
 			e.printStackTrace();
+		}catch (NullPointerException e){
+			e.printStackTrace();
 		}
 	}
 
