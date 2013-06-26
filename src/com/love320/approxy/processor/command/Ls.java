@@ -15,6 +15,7 @@ public class Ls implements Icommand{
 		if(coms.length <= 0 || !coms[0].toUpperCase().equals(code)) return command;
 		Set<String> setkey = P2PManager.socketMap.keySet();
 		java.text.DateFormat format = new java.text.SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+		if(setkey == null) return command;
 		for(String sing : setkey){
 			Date tempdate = new Date(new Long((sing.split("-"))[1]));
 			command += "\r\n"+sing+"  "+format.format(tempdate);
