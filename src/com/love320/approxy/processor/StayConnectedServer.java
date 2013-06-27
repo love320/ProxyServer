@@ -8,13 +8,16 @@ public class StayConnectedServer extends java.lang.Thread {
 	@Override
 	public void run() {
 		P2PManager.msg("StayConnected OK .");
+		boolean reSocketT = false;//重新获取专用连接状态：false 没进行获取，true:获取中
 		for(;;){
 				try {
 					sleep(1000*30);
 					if(P2PManager.isconn) {
 						P2PManager.isconn = false;
+						reSocketT = false;
 					}else{
-						ProcessorServer.reSocketT();//重新获取新的
+						if(!reSocketT)ProcessorServer.reSocketT();//重新获取新的
+						reSocketT = true;
 					}
 				} catch (InterruptedException e) {
 					e.printStackTrace();
