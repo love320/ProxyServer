@@ -18,7 +18,7 @@ public class Ls implements Icommand{
 		if(setkey == null) return command;
 		for(String sing : setkey){
 			Date tempdate = new Date(new Long((sing.split("-"))[1]));
-			command += "\r\n"+sing+"  "+format.format(tempdate);
+			command += "\r\n"+sing+"  "+format.format(tempdate)+" "+(P2PManager.socketMap.get(sing).isClosed());
 		}
 		return command;
 	}
