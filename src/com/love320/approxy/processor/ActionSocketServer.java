@@ -31,7 +31,7 @@ public class ActionSocketServer implements Runnable {
 		try {
 			Socket serverSocket = ProcessorServer.sendConnetNewSocket(ip,port);//通知客户机主动创建连接并取客户机的连接
 			P2PManager.msg("PROXY_TO_DOC Server:"+serverSocket);
-			P2PManager.P2PGO(serverSocket,clientSocket);//启动
+			P2PManager.P2PGO(clientSocket,serverSocket);//启动
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

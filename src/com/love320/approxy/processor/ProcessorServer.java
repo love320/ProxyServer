@@ -28,8 +28,8 @@ public class ProcessorServer implements Runnable {
 				StayConnectedServer stayconn = new StayConnectedServer();
 				new Thread(stayconn).start();//提供专用通信线程保持通信
 				
-				Accept accept = new Accept();
-				new Thread(accept).start();//检测等待连接
+//				Accept accept = new Accept();
+//				new Thread(accept).start();//检测等待连接
 				
 				CloseSocketMap closeSocketMap = new CloseSocketMap();
 				new Thread(closeSocketMap).start();//去除并关闭无效连接
@@ -87,7 +87,6 @@ public class ProcessorServer implements Runnable {
 	
 	public static Socket getSocket() throws IOException{
 		Socket newsocket =serverSocket.accept();
-		P2PManager.addSocketMap(newsocket);//加入容器
 		return newsocket;
 	}
 

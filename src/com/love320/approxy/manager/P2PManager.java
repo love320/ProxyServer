@@ -21,7 +21,7 @@ public class P2PManager {
 	//添加到Socket容器
 	public static void addSocketMap(Socket socket){
 		Date date = new Date();
-		String key = "Z"+newconnum()+"-"+date.getTime() +"-"+ socket.getInetAddress();
+		String key = "Z"+newconnum()+"-"+date.getTime() +"-"+ socket;
 		msg("Add Socket key:"+key);
 		socketMap.put(key, socket);
 	}

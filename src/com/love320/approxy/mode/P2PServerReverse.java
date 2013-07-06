@@ -39,7 +39,6 @@ public class P2PServerReverse implements Runnable{
 			ServerSocket proxySocket = new ServerSocket(iport.getProxy());
 			while (true) {
 					Socket clientSocket = proxySocket.accept();//取客户连接
-					P2PManager.addSocketMap(clientSocket);//加入容器
 					P2PManager.msg("My Client for P2PServerReverse:"+clientSocket);
 					ActionSocketServer ass = new ActionSocketServer(clientSocket,iport.getIp(),iport.getPort());//绑定相关连接
 					new Thread(ass).start();//启动
