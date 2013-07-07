@@ -17,8 +17,11 @@ public class CloseSocketMap  extends java.lang.Thread {
 					Set<String> setkey = P2PManager.socketMap.keySet();
 					for(String sing : setkey){
 						Socket socket = P2PManager.socketMap.get(sing);
-						if(socket.isClosed()) P2PSocket.socketClose(socket);//去除并关闭无效连接
-						P2PManager.socketMap.remove(sing);//从map中移除
+						if(socket.isClosed()){
+							P2PManager.msg("CloseSocketMap ."+socket);
+							P2PSocket.socketClose(socket);//去除并关闭无效连接
+							P2PManager.socketMap.remove(sing);//从map中移除
+						}
 					}
 				} catch (InterruptedException e) {
 					e.printStackTrace();
