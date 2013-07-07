@@ -14,12 +14,12 @@ public class Accept  extends java.lang.Thread {
 		P2PManager.msg("Accept OK .");
 		for(;;){
 				try {
-					sleep(1000*60*1);//每60秒进行一次
-					P2PManager.acceptWait = true;//开启等待连接检测
+					sleep(1000*60*5);//每5分钟进行一次
+					P2PManager.acceptWait = true;//开启等待连接检测状态
 					new Thread(new KillSocket()).start();
-					sleep(1000*2);//等待5秒
-					if(P2PManager.acceptWait) P2PManager.addSocketMap(new Socket("127.0.0.1",Config.PROXY_TO_DOC));//加入容器(发起请求连接，关闭检测的等待)
-					P2PManager.acceptWait = false;//关闭等待连接检测
+					sleep(1000*3);//等待3秒
+					P2PManager.acceptWait = false;//关闭等待连接检测状态
+					P2PManager.addSocketMap(new Socket(Config.PROXY_HOST,Config.PROXY_TO_DOC));//加入容器(发起请求连接，关闭检测的等待)
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				} catch (UnknownHostException e) {
