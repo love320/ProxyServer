@@ -13,7 +13,7 @@ import com.love320.approxy.manager.IPort;
 public class Config {
 	
 	//外部配置文件
-	public static String CONF = "config.ps320";
+	public static String CONF = "ps320.config";
 	
 	//日志文件
 	public static String FILESERVER = "proxyFileServer.txt";

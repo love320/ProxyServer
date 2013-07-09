@@ -42,8 +42,9 @@ public class P2PServerProxy implements Runnable{
 					P2PManager.msg("My Server for P2PServerProxy:"+socket);
 					P2PManager.P2PGO(clientSocket,socket);//启动
 			}
-		} catch (IOException e1) {
-			e1.printStackTrace();
+		} catch (IOException e) {
+			System.out.println("prot error:"+iport.getProxy());
+			e.printStackTrace();
 		}
 		
 	}
