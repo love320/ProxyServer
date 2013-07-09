@@ -36,12 +36,13 @@ public class Config {
 		IPORTLIST.add(IPort.reverseProxy(6512,"172.16.209.12",22)); //6522 -> 172.16.209.12:22
 		//IPORTLIST.add(IPort.reverseProxy(6580,"172.16.209.12",8080)); //6522 -> 172.16.209.12:8080
 		IPORTLIST.add(IPort.reverseProxy(6590,"172.16.209.12",9090)); //6522 -> 172.16.209.12:8080
+		IPORTLIST.add(IPort.reverseProxy(6585,"172.16.209.12",8585)); //6522 -> 172.16.209.12:8080	
 		
 		//IPORTLIST.add(IPort.reverseProxy(6555,"192.168.173.23",22)); //6555 ->192.168.173.23:22
 		//IPORTLIST.add(IPort.reverseProxy(6100,"192.168.1.100",22)); //6100 ->192.168.1.100:22
 		
 		//普通代理
-		IPORTLIST.add(IPort.proxy(6599, "113.243.142.23", 9999));
+		IPORTLIST.add(IPort.proxy(6699, "113.243.142.23", 9999));
 		
 	}
 	
