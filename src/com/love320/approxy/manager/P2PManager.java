@@ -12,6 +12,8 @@ public class P2PManager {
 	public static Socket socketT  = null; //专用通信线程
 	public static boolean isconn = false;//专用通信状态，true为正常，false为断开 
 	
+	public static boolean acceptWait = false;//是否有等待accept， true有，false无
+	
 	public static int connum = 0;
 	
 	public static Map<String, Socket> socketMap = new HashMap<String, Socket>();
@@ -19,7 +21,7 @@ public class P2PManager {
 	//添加到Socket容器
 	public static void addSocketMap(Socket socket){
 		Date date = new Date();
-		String key = "Z"+newconnum()+"-"+date.getTime() +"-"+ socket.getInetAddress();
+		String key = "Z"+newconnum()+"-"+date.getTime() +"-"+ socket;
 		msg("Add Socket key:"+key);
 		socketMap.put(key, socket);
 	}

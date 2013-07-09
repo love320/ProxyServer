@@ -43,7 +43,7 @@ public class ProcessorClient implements Runnable {
 					P2PManager.msg("PROXY_TO_DOC Server:"+serverSocket);
 					Socket clientSocket = new Socket(iport.getIp(),iport.getPort());
 					P2PManager.msg("Target ClientSocket:"+clientSocket);
-					P2PManager.P2PGO(clientSocket,serverSocket);//启动
+					P2PManager.P2PGO(serverSocket,clientSocket);//启动
 				}
 			}
 		}
