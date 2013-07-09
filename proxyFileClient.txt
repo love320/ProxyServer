@@ -1,0 +1,6 @@
+Site: http://www.love320.com 
+ps320开源 冰迪网络 出品 
+File: D:\work\git\ProxyServer\proxyFileClient.txt
+Started Listen Port:kingdom.love320.com:221
+StayConnectedClient OK .
+clinet for server Go ...
