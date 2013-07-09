@@ -1,0 +1,74 @@
+Started(Listen Port:6699) for P2PServerProxy
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6320) for P2PManagerServer 
+Started(Listen T Port:22)
+StayConnected OK .
+Accept OK .
+CloseSocketMap OK .
+reSocketT:null
+Close:null
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6699) for P2PServerProxy
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6699) for P2PServerProxy
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6320) for P2PManagerServer 
+Started(Listen T Port:22)
+StayConnected OK .
+Accept OK .
+CloseSocketMap OK .
+reSocketT:null
+Close:null
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6699) for P2PServerProxy
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6320) for P2PManagerServer 
+Started(Listen T Port:22)
+StayConnected OK .
+Accept OK .
+CloseSocketMap OK .
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6699) for P2PServerProxy
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6320) for P2PManagerServer 
+Started(Listen T Port:22)
+StayConnected OK .
+Accept OK .
+CloseSocketMap OK .
+reSocketT:null
+Close:null
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6699) for P2PServerProxy
+Started(Listen Port:6522) for P2PServerReverse 
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6699) for P2PServerProxy
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen T Port:22)
+Started(Listen Port:6320) for P2PManagerServer 
+StayConnected OK .
+Accept OK .
+CloseSocketMap OK .
+reSocketT:null
+Close:null
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6699) for P2PServerProxy
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6320) for P2PManagerServer 
+Started(Listen T Port:22)
+StayConnected OK .
+Accept OK .
+CloseSocketMap OK .
+reSocketT:null
+Close:null
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6699) for P2PServerProxy
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6320) for P2PManagerServer 
+Started(Listen T Port:22)
+StayConnected OK .
+Accept OK .
+CloseSocketMap OK .
+reSocketT:null
+Close:null
