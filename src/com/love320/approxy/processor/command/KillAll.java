@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Set;
 
 import com.love320.approxy.manager.P2PManager;
-import com.love320.approxy.manager.P2PSocket;
+import com.love320.approxy.manager.socket.P2PSocket;
 
 public class KillAll implements Icommand{
 	

@@ -1,10 +1,12 @@
-package com.love320.approxy.manager;
+package com.love320.approxy.manager.socket;
 
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.Socket;
 import java.net.UnknownHostException;
+
+import com.love320.approxy.manager.P2PManager;
 
 public class P2PSocket  implements Runnable{
 	

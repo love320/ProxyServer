@@ -7,7 +7,7 @@ import java.net.UnknownHostException;
 import java.util.List;
 
 import com.love320.approxy.Config;
-import com.love320.approxy.manager.IPort;
+import com.love320.approxy.bean.IPort;
 import com.love320.approxy.manager.P2PManager;
 
 

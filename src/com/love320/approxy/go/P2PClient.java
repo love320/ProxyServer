@@ -5,8 +5,8 @@ import java.io.IOException;
 import java.net.Socket;
 
 import com.love320.approxy.Config;
-import com.love320.approxy.manager.FileOutMsg;
 import com.love320.approxy.manager.P2PManager;
+import com.love320.approxy.manager.io.FileOutMsg;
 import com.love320.approxy.mode.P2PClientReverse;
 import com.love320.approxy.processor.ProcessorClient;
 import com.love320.approxy.processor.StayConnectedClient;

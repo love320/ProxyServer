@@ -6,7 +6,8 @@ import java.util.Set;
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.Properties;
-import com.love320.approxy.manager.IPort;
+
+import com.love320.approxy.bean.IPort;
 
 
 

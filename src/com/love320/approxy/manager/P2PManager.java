@@ -7,6 +7,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.love320.approxy.bean.IPort;
+import com.love320.approxy.manager.io.FileOutMsg;
+import com.love320.approxy.manager.socket.P2PSocket;
+
 public class P2PManager {
 	
 	public static Socket socketT  = null; //专用通信线程

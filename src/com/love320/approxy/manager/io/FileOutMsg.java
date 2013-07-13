@@ -1,4 +1,4 @@
-package com.love320.approxy.manager;
+package com.love320.approxy.manager.io;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -8,6 +8,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 import com.love320.approxy.Config;
+import com.love320.approxy.manager.P2PManager;
 
 public class FileOutMsg extends java.lang.Thread {
 	

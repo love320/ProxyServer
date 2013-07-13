@@ -4,7 +4,7 @@ import java.net.Socket;
 import java.util.Map;
 
 import com.love320.approxy.manager.P2PManager;
-import com.love320.approxy.manager.P2PSocket;
+import com.love320.approxy.manager.socket.P2PSocket;
 
 public class Kill implements Icommand{
 	

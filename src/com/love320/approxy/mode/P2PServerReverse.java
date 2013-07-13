@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import com.love320.approxy.Config;
-import com.love320.approxy.manager.IPort;
+import com.love320.approxy.bean.IPort;
 import com.love320.approxy.manager.P2PManager;
 import com.love320.approxy.processor.ActionSocketServer;
 import com.love320.approxy.processor.ProcessorServer;

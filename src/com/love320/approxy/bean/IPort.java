@@ -1,4 +1,4 @@
-package com.love320.approxy.manager;
+package com.love320.approxy.bean;
 
 public class IPort {
 	

@@ -6,7 +6,7 @@ import java.io.InputStream;
 import java.net.Socket;
 
 import com.love320.approxy.manager.P2PManager;
-import com.love320.approxy.manager.P2PSocket;
+import com.love320.approxy.manager.socket.P2PSocket;
 import com.love320.approxy.processor.command.ConfigCommand;
 import com.love320.approxy.processor.command.Icommand;
 

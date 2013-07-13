@@ -9,7 +9,7 @@ import java.net.UnknownHostException;
 
 import com.love320.approxy.Config;
 import com.love320.approxy.manager.P2PManager;
-import com.love320.approxy.manager.P2PSocket;
+import com.love320.approxy.manager.socket.P2PSocket;
 import com.love320.approxy.processor.monitor.Accept;
 import com.love320.approxy.processor.monitor.CloseSocketMap;
 

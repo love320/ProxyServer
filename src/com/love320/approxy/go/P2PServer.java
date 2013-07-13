@@ -3,7 +3,7 @@ package com.love320.approxy.go;
 import java.io.File;
 import java.io.IOException;
 import com.love320.approxy.Config;
-import com.love320.approxy.manager.FileOutMsg;
+import com.love320.approxy.manager.io.FileOutMsg;
 import com.love320.approxy.mode.P2PManagerServer;
 import com.love320.approxy.mode.P2PServerProxy;
 import com.love320.approxy.mode.P2PServerReverse;
