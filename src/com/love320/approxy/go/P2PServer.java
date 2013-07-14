@@ -16,7 +16,7 @@ public class P2PServer{
 		FileOutMsg fom = new FileOutMsg(new File(Config.FILESERVER));//日志
 		new Thread(fom).start();//启动日志
 		
-		//P2PManagerServer.action();//管理服务
+		P2PManagerServer.action();//管理服务
 		
 		P2PServerProxy.action();//普通代理服务
 		

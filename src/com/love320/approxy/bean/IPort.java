@@ -2,9 +2,9 @@ package com.love320.approxy.bean;
 
 public class IPort {
 	
-	private String ip = "127.0.0.1";
-	private Integer port = 22;
-	private Integer proxy = 22;
+	private String ip = "127.0.0.1"; //目标ip
+	private Integer port = 22;//目标端口
+	private Integer proxy = 22;//服务端口
 	private Integer type = 1;// 1.普通代理 2.逆向代理
 	
 	public static IPort reverseProxy(Integer proxy,String ip,Integer port ){

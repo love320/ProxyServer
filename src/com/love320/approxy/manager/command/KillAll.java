@@ -1,4 +1,4 @@
-package com.love320.approxy.processor.command;
+package com.love320.approxy.manager.command;
 
 import java.net.Socket;
 import java.util.Map;
@@ -6,6 +6,7 @@ import java.util.Set;
 
 import com.love320.approxy.manager.P2PManager;
 import com.love320.approxy.manager.socket.P2PSocket;
+import com.love320.approxy.manager.socket.SocketMap;
 
 public class KillAll implements Icommand{
 	
@@ -15,7 +16,7 @@ public class KillAll implements Icommand{
 	public String action(String command) {
 		String[] coms = command.split(" ");
 		if(coms.length <= 0 || !coms[0].toUpperCase().equals(code)) return command;
-		Set<String> setkey = P2PManager.socketMap.keySet();
+		Set<String> setkey = SocketMap.MAP.keySet();
 		if(setkey == null) return command;
 		for(String sing : setkey){
 			killThread(sing);
@@ -24,10 +25,10 @@ public class KillAll implements Icommand{
 	}
 	
 	private boolean killThread(String key){
-		Socket socket = P2PManager.socketMap.get(key);
+		Socket socket = SocketMap.MAP.get(key);
 		if(socket == null) return false;
 		P2PSocket.socketClose(socket);
-		P2PManager.socketMap.remove(key);
+		SocketMap.MAP.remove(key);
 		return true;
 	}
 

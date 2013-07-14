@@ -1,4 +1,4 @@
-package com.love320.approxy.processor.command;
+package com.love320.approxy.manager.command;
 
 public class Reboot implements Icommand{
 	

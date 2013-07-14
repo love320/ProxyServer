@@ -6,6 +6,7 @@ import java.net.UnknownHostException;
 
 import com.love320.approxy.Config;
 import com.love320.approxy.manager.P2PManager;
+import com.love320.approxy.manager.socket.SocketMap;
 
 public class Accept  extends java.lang.Thread {
 
@@ -19,7 +20,7 @@ public class Accept  extends java.lang.Thread {
 					new Thread(new KillSocket()).start();
 					sleep(1000*3);//等待3秒
 					P2PManager.acceptWait = false;//关闭等待连接检测状态
-					P2PManager.addSocketMap(new Socket(Config.PROXY_HOST,Config.PROXY_TO_DOC));//加入容器(发起请求连接，关闭检测的等待)
+					SocketMap.add(new Socket(Config.PROXY_HOST,Config.PROXY_TO_DOC));//加入容器(发起请求连接，关闭检测的等待)
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				} catch (UnknownHostException e) {

@@ -6,9 +6,9 @@ import java.io.InputStream;
 import java.net.Socket;
 
 import com.love320.approxy.manager.P2PManager;
+import com.love320.approxy.manager.command.ConfigCommand;
+import com.love320.approxy.manager.command.Icommand;
 import com.love320.approxy.manager.socket.P2PSocket;
-import com.love320.approxy.processor.command.ConfigCommand;
-import com.love320.approxy.processor.command.Icommand;
 
 
 //处理请求的连接

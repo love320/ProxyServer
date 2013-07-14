@@ -5,6 +5,7 @@ import java.util.ConcurrentModificationException;
 import java.util.Set;
 import com.love320.approxy.manager.P2PManager;
 import com.love320.approxy.manager.socket.P2PSocket;
+import com.love320.approxy.manager.socket.SocketMap;
 
 public class CloseSocketMap  extends java.lang.Thread {
 
@@ -14,13 +15,13 @@ public class CloseSocketMap  extends java.lang.Thread {
 		for(;;){
 				try {
 					sleep(1000*60*5);//每5分钟进行一次
-					Set<String> setkey = P2PManager.socketMap.keySet();
+					Set<String> setkey = SocketMap.MAP.keySet();
 					for(String sing : setkey){
-						Socket socket = P2PManager.socketMap.get(sing);
+						Socket socket = SocketMap.MAP.get(sing);
 						if(socket.isClosed()){
 							P2PManager.msg("CloseSocketMap ."+socket);
 							P2PSocket.socketClose(socket);//去除并关闭无效连接
-							P2PManager.socketMap.remove(sing);//从map中移除
+							SocketMap.MAP.remove(sing);//从map中移除
 						}
 					}
 				} catch (InterruptedException e) {

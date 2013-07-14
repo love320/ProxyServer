@@ -1,4 +1,4 @@
-package com.love320.approxy.processor.command;
+package com.love320.approxy.manager.command;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,6 +9,8 @@ public class ConfigCommand {
 		commands.add(new Kill());
 		commands.add(new KillAll());
 		commands.add(new Ls());
+		commands.add(new Lss());
 		commands.add(new Reboot());
+		commands.add(new New());
 	}
 }

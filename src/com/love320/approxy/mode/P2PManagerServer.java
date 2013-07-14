@@ -6,6 +6,7 @@ import java.net.Socket;
 
 import com.love320.approxy.Config;
 import com.love320.approxy.manager.P2PManager;
+import com.love320.approxy.manager.socket.SocketServerMap;
 import com.love320.approxy.processor.ManagerSocketServer;
 
 public class P2PManagerServer implements Runnable{

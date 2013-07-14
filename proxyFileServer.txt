@@ -207,3 +207,1668 @@ Started(Listen T Port:221)
 StayConnected OK .
 Accept OK .
 CloseSocketMap OK .
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen Port:6699) for P2PServerProxy
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen T Port:22)
+Add Socket key:Z1-1373722383460-ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=6590]
+Add Socket key:Z3-1373722383461-ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=6522]
+Add Socket key:Z2-1373722383460-ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=6512]
+Add Socket key:Z4-1373722383461-ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=6585]
+StayConnected OK .
+Accept OK .
+CloseSocketMap OK .
+Started(Listen Port:6699) for P2PServerProxy
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen T Port:22)
+Add ServerSocket key:Z1-1373722444032-9999@113.243.142.23:9999-ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=6699]
+Add ServerSocket key:Z3-1373722444032-22@172.16.209.12:22-ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=6512]
+Add ServerSocket key:Z4-1373722444032-9090@172.16.209.12:9090-ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=6590]
+Add ServerSocket key:Z5-1373722444032-8585@172.16.209.12:8585-ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=6585]
+Add ServerSocket key:Z2-1373722444032-22@127.0.0.1:22-ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=6522]
+StayConnected OK .
+Accept OK .
+CloseSocketMap OK .
+reSocketT:null
+Close:null
+Started(Listen Port:6699) for P2PServerProxy
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen T Port:22)
+Add ServerSocket key:Z1-1373722496933-8585@172.16.209.12:8585
+Add ServerSocket key:Z2-1373722496933-22@127.0.0.1:22
+Add ServerSocket key:Z3-1373722496934-9090@172.16.209.12:9090
+Add ServerSocket key:Z4-1373722496934-9999@113.243.142.23:9999
+Add ServerSocket key:Z5-1373722496934-22@172.16.209.12:22
+CloseSocketMap OK .
+StayConnected OK .
+Accept OK .
+reSocketT:null
+Close:null
+Started(Listen Port:6699) for P2PServerProxy
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen T Port:22)
+StayConnected OK .
+Add ServerSocket key:Z1-1373723279482-22@127.0.0.1:22
+Add ServerSocket key:Z2-1373723279482-9090@172.16.209.12:9090
+Add ServerSocket key:Z4-1373723279483-9999@113.243.142.23:9999
+Add ServerSocket key:Z3-1373723279483-22@172.16.209.12:22
+Add ServerSocket key:Z5-1373723279483-8585@172.16.209.12:8585
+Accept OK .
+CloseSocketMap OK .
+Started(Listen Port:6699) for P2PServerProxy
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen T Port:22)
+Started(Listen Port:6320) for P2PManagerServer 
+Add ServerSocket key:Z1-1373723307410-9090@172.16.209.12:9090
+Add ServerSocket key:Z2-1373723307411-22@127.0.0.1:22
+Add ServerSocket key:Z3-1373723307411-9999@113.243.142.23:9999
+Add ServerSocket key:Z3-1373723307411-8585@172.16.209.12:8585
+Add ServerSocket key:Z4-1373723307411-22@172.16.209.12:22
+StayConnected OK .
+Accept OK .
+CloseSocketMap OK .
+reSocketT:null
+Close:null
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=61603,localport=6320]
+l
+s
+
+
+l
+s
+l
+s
+l
+s
+l
+s
+Close:Socket[addr=/127.0.0.1,port=61603,localport=6320]
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=61606,localport=6320]
+���� ����'������
+ls
+
+
+new 1@3322@127.0.0.1:2323
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen Port:6699) for P2PServerProxy
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6320) for P2PManagerServer 
+Started(Listen T Port:22)
+Add ServerSocket key:Z2-1373723550246-9090@172.16.209.12:9090
+Add ServerSocket key:Z3-1373723550246-22@127.0.0.1:22
+Add ServerSocket key:Z1-1373723550246-8585@172.16.209.12:8585
+Add ServerSocket key:Z4-1373723550246-9999@113.243.142.23:9999
+StayConnected OK .
+Add ServerSocket key:Z5-1373723550246-22@172.16.209.12:22
+Accept OK .
+CloseSocketMap OK .
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=61638,localport=6320]
+���� ����'������
+ls
+
+
+reSocketT:null
+Close:null
+new 1@5493@127.0.0.1:3329
+Started(Listen Port:5493) for P2PServerProxy
+
+
+Add ServerSocket key:Z6-1373723584959-3329@127.0.0.1:3329
+[A
+
+
+��
+
+
+
+new 1@5555@127.0.0.1:3329
+Started(Listen Port:5555) for P2PServerProxy
+
+
+Add ServerSocket key:Z7-1373723633768-3329@127.0.0.1:3329
+��
+
+
+
+new 1@6666@127.0.0.1:6320
+Started(Listen Port:6666) for P2PServerProxy
+
+
+Add ServerSocket key:Z8-1373723662719-6320@127.0.0.1:6320
+Add Socket key:S1-1373723678268-Socket[addr=/127.0.0.1,port=61655,localport=6666]
+My Client for P2PServerProxy:Socket[addr=/127.0.0.1,port=61655,localport=6666]
+My Server for P2PServerProxy:Socket[addr=/127.0.0.1,port=6320,localport=61656]
+Add Socket key:S2-1373723678313-Socket[addr=/127.0.0.1,port=61655,localport=6666]
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=61656,localport=6320]
+Add Socket key:S3-1373723678313-Socket[addr=/127.0.0.1,port=6320,localport=61656]
+���� ����'������
+ls
+
+
+ls
+
+
+��
+
+Close:Socket[addr=/127.0.0.1,port=6320,localport=61656]
+Close:Socket[addr=/127.0.0.1,port=61656,localport=6320]
+Close:Socket[addr=/127.0.0.1,port=61655,localport=6666]
+ls
+
+
+ls
+
+
+killall
+Close:Socket[addr=/127.0.0.1,port=61655,localport=6666]
+Started(Listen Port:6699) for P2PServerProxy
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6320) for P2PManagerServer 
+Add ServerSocket key:Z1-1373723825099-8585@172.16.209.12:8585
+Add ServerSocket key:Z2-1373723825099-22@127.0.0.1:22
+Add ServerSocket key:Z3-1373723825100-9999@113.243.142.23:9999
+Add ServerSocket key:Z5-1373723825100-9090@172.16.209.12:9090
+Started(Listen T Port:22)
+Add ServerSocket key:Z4-1373723825100-22@172.16.209.12:22
+StayConnected OK .
+Accept OK .
+CloseSocketMap OK .
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=61680,localport=6320]
+���� ����'������
+ls
+
+
+reSocketT:null
+Close:null
+ls
+
+
+new 1@2323@127.0.0.1:2323
+Started(Listen Port:2323) for P2PServerProxy
+
+
+Add ServerSocket key:Z6-1373723937347-2323@127.0.0.1:2323
+��
+
+
+
+new 2@2322@127.0.0.1:4444
+Started(Listen Port:2322) for P2PServerReverse 
+
+
+Add ServerSocket key:Z7-1373723973184-4444@127.0.0.1:4444
+new 3@343@127.0.0.1:2323
+
+
+ls
+
+
+KillSocket OK .
+Add Socket key:S1-1373724128462-Socket[addr=kingdom.love320.com/183.62.141.12,port=22,localport=61718]
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen Port:6699) for P2PServerProxy
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen T Port:22)
+Started(Listen Port:6320) for P2PManagerServer 
+Add ServerSocket key:Z1-1373724228386-9999@113.243.142.23:9999
+Add ServerSocket key:Z3-1373724228387-22@127.0.0.1:22
+Add ServerSocket key:Z2-1373724228386-22@172.16.209.12:22
+Add ServerSocket key:Z5-1373724228387-8585@172.16.209.12:8585
+Add ServerSocket key:Z4-1373724228387-9090@172.16.209.12:9090
+StayConnected OK .
+Accept OK .
+CloseSocketMap OK .
+reSocketT:null
+Close:null
+Started(Listen Port:6699) for P2PServerProxy
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6320) for P2PManagerServer 
+Started(Listen T Port:22)
+Add ServerSocket key:Z1-1373728803796-9090@172.16.209.12:9090
+Add ServerSocket key:Z2-1373728803796-22@172.16.209.12:22
+Add ServerSocket key:Z3-1373728803797-22@127.0.0.1:22
+Add ServerSocket key:Z4-1373728803797-9999@113.243.142.23:9999
+Add ServerSocket key:Z5-1373728803797-8585@172.16.209.12:8585
+StayConnected OK .
+Accept OK .
+CloseSocketMap OK .
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=62557,localport=6320]
+���� ����'������
+lss
+
+
+reSocketT:null
+Close:null
+ls
+
+
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen Port:6699) for P2PServerProxy
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen T Port:22)
+Started(Listen Port:6320) for P2PManagerServer 
+StayConnected OK .
+Accept OK .
+CloseSocketMap OK .
+Add ServerSocket key:Z1-1373728896105-9090@172.16.209.12:9090
+Add ServerSocket key:Z3-1373728896105-22@172.16.209.12:22
+Add ServerSocket key:Z2-1373728896105-9999@113.243.142.23:9999
+Add ServerSocket key:Z2-1373728896105-8585@172.16.209.12:8585
+Add ServerSocket key:Z4-1373728896105-22@127.0.0.1:22
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=62570,localport=6320]
+���� ����'������
+lss
+
+
+reSocketT:null
+Close:null
+ls
+
+
+lss
+
+
+KillSocket OK .
+Add Socket key:S1-1373729199365-Socket[addr=kingdom.love320.com/183.62.141.12,port=22,localport=62630]
+KillSocket OK .
+Add Socket key:S2-1373729502374-Socket[addr=kingdom.love320.com/183.62.141.12,port=22,localport=62694]
+ls
+
+
+ls
+
+
+ls
+
+
+ls
+
+
+ls
+
+
+ls
+
+
+ls
+
+
+lss
+
+
+ls
+
+
+lss
+
+
+KillSocket OK .
+Add Socket key:S3-1373729805409-Socket[addr=kingdom.love320.com/183.62.141.12,port=22,localport=62749]
+KillSocket OK .
+Add Socket key:S4-1373730108436-Socket[addr=kingdom.love320.com/183.62.141.12,port=22,localport=62790]
+KillSocket OK .
+Add Socket key:S5-1373730411458-Socket[addr=kingdom.love320.com/183.62.141.12,port=22,localport=62828]
+Started(Listen Port:6699) for P2PServerProxy
+Started(Listen Port:6320) for P2PManagerServer 
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+Add ServerSocket key:Z1-1373769368305-9999@113.243.142.23:9999
+Add ServerSocket key:Z2-1373769368305-9090@172.16.209.12:9090
+Started(Listen T Port:22)
+Add ServerSocket key:Z3-1373769368305-8585@172.16.209.12:8585
+Add ServerSocket key:Z4-1373769368305-22@172.16.209.12:22
+Add ServerSocket key:Z5-1373769368305-22@127.0.0.1:22
+StayConnected OK .
+Accept OK .
+CloseSocketMap OK .
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=49468,localport=6320]
+���� ����'������
+lss
+
+
+reSocketT:null
+Close:null
+kill Z5-1373769368305-22@127.0.0.1:22
+Close Server:ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=6522]
+
+
+ls
+
+
+lss
+
+
+Close:Socket[addr=/127.0.0.1,port=49468,localport=6320]
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen Port:6699) for P2PServerProxy
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6320) for P2PManagerServer 
+Started(Listen T Port:22)
+StayConnected OK .
+Accept OK .
+CloseSocketMap OK .
+Add ServerSocket key:Z1-1373777380832-9090@172.16.209.12:9090
+Add ServerSocket key:Z4-1373777380832-8585@172.16.209.12:8585
+Add ServerSocket key:Z3-1373777380832-9999@113.243.142.23:9999
+Add ServerSocket key:Z2-1373777380832-22@127.0.0.1:22
+Add ServerSocket key:Z5-1373777380832-22@172.16.209.12:22
+reSocketT:null
+Close:null
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=50842,localport=6320]
+lss
+lss
+lss
+KillSocket OK .
+Add Socket key:S1-1373777684121-Socket[addr=kingdom.love320.com/183.62.141.12,port=22,localport=50869]
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=50878,localport=6320]
+���� ����'������
+lss
+
+
+lss
+
+
+lss
+
+
+Close:Socket[addr=/127.0.0.1,port=50842,localport=6320]
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=50883,localport=6320]
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+Close:Socket[addr=/127.0.0.1,port=50883,localport=6320]
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=50911,localport=6320]
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+KillSocket OK .
+Add Socket key:S2-1373777990797-Socket[addr=kingdom.love320.com/183.62.141.12,port=22,localport=50916]
+Close:Socket[addr=/127.0.0.1,port=50911,localport=6320]
+KillSocket OK .
+Add Socket key:S3-1373778293803-Socket[addr=kingdom.love320.com/183.62.141.12,port=22,localport=50944]
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=50961,localport=6320]
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+KillSocket OK .
+Add Socket key:S4-1373778597824-Socket[addr=kingdom.love320.com/183.62.141.12,port=22,localport=51002]
+KillSocket OK .
+Add Socket key:S5-1373778901337-Socket[addr=kingdom.love320.com/183.62.141.12,port=22,localport=51029]
+Close:Socket[addr=/127.0.0.1,port=50961,localport=6320]
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=51049,localport=6320]
+lss
+lss
+lss
+lss
+lss
+KillSocket OK .
+Add Socket key:S6-1373779204657-Socket[addr=kingdom.love320.com/183.62.141.12,port=22,localport=51093]
+KillSocket OK .
+Add Socket key:S7-1373779507712-Socket[addr=kingdom.love320.com/183.62.141.12,port=22,localport=51125]
+Close:Socket[addr=/127.0.0.1,port=51049,localport=6320]
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=51135,localport=6320]
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+
+
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+KillSocket OK .
+Add Socket key:S8-1373779814350-Socket[addr=kingdom.love320.com/183.62.141.12,port=22,localport=51169]
+KillSocket OK .
+Add Socket key:S9-1373780117404-Socket[addr=kingdom.love320.com/183.62.141.12,port=22,localport=51184]
+lss
+lss
+KillSocket OK .
+Add Socket key:S10-1373780420419-Socket[addr=kingdom.love320.com/183.62.141.12,port=22,localport=51229]
+lss
+Close:Socket[addr=/127.0.0.1,port=51135,localport=6320]
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen Port:6699) for P2PServerProxy
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6320) for P2PManagerServer 
+Started(Listen T Port:22)
+StayConnected OK .
+Accept OK .
+Add ServerSocket key:Z2-1373780698659-9090@172.16.209.12:9090-2
+Add ServerSocket key:Z3-1373780698659-22@172.16.209.12:22-2
+Add ServerSocket key:Z1-1373780698659-9999@113.243.142.23:9999-1
+Add ServerSocket key:Z1-1373780698659-22@127.0.0.1:22-2
+Add ServerSocket key:Z3-1373780698659-8585@172.16.209.12:8585-2
+CloseSocketMap OK .
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=51269,localport=6320]
+lss
+reSocketT:null
+Close:null
+lss
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen Port:6699) for P2PServerProxy
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6320) for P2PManagerServer 
+Started(Listen T Port:22)
+Add ServerSocket key:Z1-1373780800554-22@127.0.0.1:22-2
+Add ServerSocket key:Z3-1373780800554-22@172.16.209.12:22-2
+Add ServerSocket key:Z2-1373780800554-9999@113.243.142.23:9999-1
+Add ServerSocket key:Z4-1373780800554-9090@172.16.209.12:9090-2
+Add ServerSocket key:Z5-1373780800554-8585@172.16.209.12:8585-2
+StayConnected OK .
+Accept OK .
+CloseSocketMap OK .
+reSocketT:null
+Close:null
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=51320,localport=6320]
+lss
+lss
+lss
+KillSocket OK .
+Add Socket key:S1-1373781103623-Socket[addr=kingdom.love320.com/183.62.141.12,port=22,localport=51327]
+KillSocket OK .
+Add Socket key:S2-1373781406790-Socket[addr=kingdom.love320.com/183.62.141.12,port=22,localport=51362]
+lss
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen Port:6699) for P2PServerProxy
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen T Port:22)
+Started(Listen Port:6320) for P2PManagerServer 
+Add ServerSocket key:Z2-1373781427299-9999@113.243.142.23:9999-1
+Add ServerSocket key:Z1-1373781427299-22@172.16.209.12:22-2
+Add ServerSocket key:Z3-1373781427299-9090@172.16.209.12:9090-2
+StayConnected OK .
+Add ServerSocket key:Z4-1373781427300-8585@172.16.209.12:8585-2
+Add ServerSocket key:Z5-1373781427300-22@127.0.0.1:22-2
+Accept OK .
+CloseSocketMap OK .
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=51382,localport=6320]
+lss
+reSocketT:null
+Close:null
+Close:Socket[addr=/127.0.0.1,port=51382,localport=6320]
+Started(Listen Port:6699) for P2PServerProxy
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen Port:6320) for P2PManagerServer 
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen T Port:22)
+Started(Listen Port:6590) for P2PServerReverse 
+Add ServerSocket key:Z1-1373781567185-9999@113.243.142.23:9999-1
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+Add ServerSocket key:Z2-1373781567186-8585@172.16.209.12:8585-2
+StayConnected OK .
+Add ServerSocket key:Z3-1373781567187-22@127.0.0.1:22-2
+Add ServerSocket key:Z4-1373781567188-22@172.16.209.12:22-2
+Add ServerSocket key:Z5-1373781567188-9090@172.16.209.12:9090-2
+CloseSocketMap OK .
+Accept OK .
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=51401,localport=6320]
+lss
+reSocketT:null
+Close:null
+Close:Socket[addr=/127.0.0.1,port=51401,localport=6320]
+Started(Listen Port:6699) for P2PServerProxy
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6320) for P2PManagerServer 
+Add ServerSocket key:Z1-1373781622494-22@127.0.0.1:22-2
+Add ServerSocket key:Z2-1373781622495-8585@172.16.209.12:8585-2
+Add ServerSocket key:Z1-1373781622494-9090@172.16.209.12:9090-2
+Started(Listen T Port:22)
+Add ServerSocket key:Z3-1373781622494-9999@113.243.142.23:9999-1
+Add ServerSocket key:Z4-1373781622495-22@172.16.209.12:22-2
+StayConnected OK .
+Accept OK .
+CloseSocketMap OK .
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=51418,localport=6320]
+lss
+reSocketT:null
+Close:null
+lss
+lss
+lss
+KillSocket OK .
+Add Socket key:S1-1373781925867-Socket[addr=kingdom.love320.com/183.62.141.12,port=22,localport=51523]
+lss
+KillSocket OK .
+Add Socket key:S2-1373782228886-Socket[addr=kingdom.love320.com/183.62.141.12,port=22,localport=51561]
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+KillSocket OK .
+Add Socket key:S3-1373782531918-Socket[addr=kingdom.love320.com/183.62.141.12,port=22,localport=51623]
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+KillSocket OK .
+Add Socket key:S4-1373782834947-Socket[addr=kingdom.love320.com/183.62.141.12,port=22,localport=51667]
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+KillSocket OK .
+Add Socket key:S5-1373783137973-Socket[addr=kingdom.love320.com/183.62.141.12,port=22,localport=51722]
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+KillSocket OK .
+Add Socket key:S6-1373783441266-Socket[addr=kingdom.love320.com/183.62.141.12,port=22,localport=51790]
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+KillSocket OK .
+Add Socket key:S7-1373783744276-Socket[addr=kingdom.love320.com/183.62.141.12,port=22,localport=51952]
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+KillSocket OK .
+Add Socket key:S8-1373784050337-Socket[addr=kingdom.love320.com/183.62.141.12,port=22,localport=51996]
+lss
+lss
+lss
+lss
+lss
+lss
+KillSocket OK .
+Add Socket key:S9-1373784353373-Socket[addr=kingdom.love320.com/183.62.141.12,port=22,localport=52041]
+lss
+lss
+lss
+lss
+lss
+KillSocket OK .
+Add Socket key:S10-1373784657566-Socket[addr=kingdom.love320.com/183.62.141.12,port=22,localport=52073]
+Close:Socket[addr=/127.0.0.1,port=51418,localport=6320]
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=52093,localport=6320]
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+lss
+Close:Socket[addr=/127.0.0.1,port=52093,localport=6320]
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=52116,localport=6320]
+lss
+KillSocket OK .
+Add Socket key:S11-1373784960591-Socket[addr=kingdom.love320.com/183.62.141.12,port=22,localport=52120]
+Close:Socket[addr=/127.0.0.1,port=52116,localport=6320]
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=52139,localport=6320]
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+KillSocket OK .
+Add Socket key:S12-1373785263618-Socket[addr=kingdom.love320.com/183.62.141.12,port=22,localport=52172]
+ls
+Close:Socket[addr=/127.0.0.1,port=52139,localport=6320]
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen Port:6699) for P2PServerProxy
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6320) for P2PManagerServer 
+Started(Listen T Port:22)
+StayConnected OK .
+Accept OK .
+Add ServerSocket key:Z1-1373785399210-9090@172.16.209.12:9090-2
+Add ServerSocket key:Z2-1373785399210-8585@172.16.209.12:8585-2
+Add ServerSocket key:Z3-1373785399210-9999@113.243.142.23:9999-1
+Add ServerSocket key:Z4-1373785399210-22@127.0.0.1:22-2
+Add ServerSocket key:Z5-1373785399210-22@172.16.209.12:22-2
+CloseSocketMap OK .
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=52199,localport=6320]
+ls
+ls
+reSocketT:null
+Close:null
+ls
+lss
+lss
+lss
+lss
+lss
+lss
+Close:Socket[addr=/127.0.0.1,port=52199,localport=6320]
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=52223,localport=6320]
+lss
+lss
+lss
+lss
+ls
+ls
+lss
+lss
+ls
+ls
+lss
+ls
+KillSocket OK .
+Add Socket key:S1-1373785703420-kingdom.love320.com/183.62.141.12:22
+Close:Socket[addr=/127.0.0.1,port=52223,localport=6320]
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=52276,localport=6320]
+ls
+lss
+lss
+lss
+lss
+lss
+lss
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+lss
+lss
+lss
+lss
+lss
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+lss
+lss
+lss
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+KillSocket OK .
+Add Socket key:S2-1373786009455-kingdom.love320.com/183.62.141.12:22
+ls
+ls
+ls
+ls
+ls
+ls
+KillSocket OK .
+Add Socket key:S3-1373786312467-kingdom.love320.com/183.62.141.12:22
+lss
+lss
+ls
+ls
+lss
+ls
+lss
+lss
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+KillSocket OK .
+Add Socket key:S4-1373786615795-kingdom.love320.com/183.62.141.12:22
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+Started(Listen Port:6699) for P2PServerProxy
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6320) for P2PManagerServer 
+Started(Listen T Port:22)
+Add ServerSocket key:S1-1373786813200-9999@113.243.142.23:9999-1
+Add ServerSocket key:S2-1373786813200-9090@172.16.209.12:9090-2
+Add ServerSocket key:S3-1373786813201-22@172.16.209.12:22-2
+Add ServerSocket key:S4-1373786813201-8585@172.16.209.12:8585-2
+StayConnected OK .
+Accept OK .
+CloseSocketMap OK .
+Add ServerSocket key:S5-1373786813206-22@127.0.0.1:22-2
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=52394,localport=6320]
+lss
+ls
+reSocketT:null
+Close:null
+Close:Socket[addr=/127.0.0.1,port=52394,localport=6320]
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=52423,localport=6320]
+lss
+ls
+Close:Socket[addr=/127.0.0.1,port=52423,localport=6320]
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=52486,localport=6320]
+lss
+ls
+KillSocket OK .
+lss
+ls
+Add Socket key:C1-1373787116755-kingdom.love320.com/183.62.141.12:22
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+ls
+ls
+ls
+lss
+ls
+Close:Socket[addr=/127.0.0.1,port=52486,localport=6320]
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=52651,localport=6320]
+lss
+ls
+lss
+ls
+lss
+lss
+lss
+ls
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+ls
+ls
+lss
+lss
+ls
+lss
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+ls
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+KillSocket OK .
+Add Socket key:C2-1373787419781-kingdom.love320.com/183.62.141.12:22
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+KillSocket OK .
+Add Socket key:C3-1373787722830-kingdom.love320.com/183.62.141.12:22
+lss
+Close:Socket[addr=/127.0.0.1,port=52651,localport=6320]
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=52714,localport=6320]
+lss
+1@8787@127.0.0.1:8787
+lss
+lss
+1@8787@127.0.0.1:8787
+lss
+KillSocket OK .
+Add Socket key:C4-1373788025852-kingdom.love320.com/183.62.141.12:22
+lss
+Close:Socket[addr=/127.0.0.1,port=52714,localport=6320]
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=52742,localport=6320]
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+new 1@7878@127.0.0.1:7878
+Started(Listen Port:7878) for P2PServerProxy
+lss
+Add ServerSocket key:S6-1373788284980-7878@127.0.0.1:7878-1
+lss
+lss
+lss
+new 2@6767@127.0.0.1:6767
+Started(Listen Port:6767) for P2PServerReverse 
+lss
+Add ServerSocket key:S7-1373788322436-6767@127.0.0.1:6767-2
+KillSocket OK .
+Add Socket key:C5-1373788329874-kingdom.love320.com/183.62.141.12:22
+lss
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+lss
+ls
+lss
+ls
+lss
+KillSocket OK .
+Add Socket key:C6-1373788633106-kingdom.love320.com/183.62.141.12:22
+lss
+lss
+lss
+lss
+KillSocket OK .
+Add Socket key:C7-1373788937169-kingdom.love320.com/183.62.141.12:22
+lss
+Close:Socket[addr=/127.0.0.1,port=52742,localport=6320]
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=52830,localport=6320]
+lss
+lss
+kill S7-1373788322436-6767@127.0.0.1:6767-2
+Close Server:ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=6767]
+lss
+lss
+kill S6-1373788284980-7878@127.0.0.1:7878-1
+Close Server:ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=7878]
+lss
+lss
+ls
+lss
+ls
+lss
+lss
+ls
+lss
+ls
+lss
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+kill S4-1373786813201-8585@172.16.209.12:8585-2
+Close Server:ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=6585]
+lss
+kill S2-1373786813200-9090@172.16.209.12:9090-2
+Close Server:ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=6590]
+lss
+kill S1-1373786813200-9999@113.243.142.23:9999-1
+Close Server:ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=6699]
+lss
+kill S3-1373786813201-22@172.16.209.12:22-2
+Close Server:ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=6512]
+lss
+lss
+ls
+lss
+ls
+lss
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen Port:6699) for P2PServerProxy
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6320) for P2PManagerServer 
+Started(Listen T Port:22)
+Add ServerSocket key:S1-1373789145551-9090@172.16.209.12:9090-2
+Add ServerSocket key:S3-1373789145551-22@172.16.209.12:22-2
+Add ServerSocket key:S2-1373789145551-9999@113.243.142.23:9999-1
+Add ServerSocket key:S4-1373789145552-8585@172.16.209.12:8585-2
+Accept OK .
+CloseSocketMap OK .
+Add ServerSocket key:S5-1373789145556-22@127.0.0.1:22-2
+StayConnected OK .
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=52854,localport=6320]
+lss
+ls
+ls
+lss
+ls
+lss
+reSocketT:null
+Close:null
+ls
+ls
+lss
+ls
+lss
+ls
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=52857,localport=6320]
+lss
+ls
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=52858,localport=6320]
+���� ����'������
+ls
+
+
+lss
+
+
+ls
+
+
+lss
+
+
+My Client for P2PManagerServer:Socket[addr=/127.0.0.1,port=52873,localport=6320]
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+
+
+ls
+lss
+ls
+lss
+ls
+lss
+ls
+lss

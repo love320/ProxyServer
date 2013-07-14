@@ -6,6 +6,7 @@ import java.net.Socket;
 import com.love320.approxy.Config;
 import com.love320.approxy.bean.IPort;
 import com.love320.approxy.manager.P2PManager;
+import com.love320.approxy.manager.socket.SocketServerMap;
 import com.love320.approxy.processor.ActionSocketServer;
 import com.love320.approxy.processor.ProcessorServer;
 
@@ -37,6 +38,7 @@ public class P2PServerReverse implements Runnable{
 		
 		try {
 			ServerSocket proxySocket = new ServerSocket(iport.getProxy());
+			SocketServerMap.add(iport,proxySocket);//服务 - 加入容器
 			while (true) {
 					Socket clientSocket = proxySocket.accept();//取客户连接
 					P2PManager.msg("My Client for P2PServerReverse:"+clientSocket);
