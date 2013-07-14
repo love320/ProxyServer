@@ -25,7 +25,7 @@ public class SocketServerMap {
 	//添加到Socket容器
 	public static void add(IPort iport,ServerSocket socket){
 		Date date = new Date();
-		String ipstring = iport.getPort()+"@"+iport.getIp()+":"+iport.getPort();
+		String ipstring = iport.getProxy()+"@"+iport.getIp()+":"+iport.getPort();
 		String key = "S"+newconnum()+"-"+date.getTime() +"-"+ipstring+"-"+iport.getType();
 		P2PManager.msg("Add ServerSocket key:"+key);
 		MAP.put(key, socket);

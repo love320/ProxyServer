@@ -1,6 +1,5 @@
 package com.love320.approxy.manager.socket;
 
-import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Date;
 import java.util.HashMap;
@@ -27,7 +26,7 @@ public class SocketMap {
 	//添加到Socket容器
 	public static void add(IPort iport,Socket socket){
 		Date date = new Date();
-		String ipstring = iport.getPort()+"@"+iport.getIp()+":"+iport.getPort();
+		String ipstring = iport.getProxy()+"@"+iport.getIp()+":"+iport.getPort();
 		String key = "C"+newconnum()+"-"+date.getTime() +"-"+ipstring+"-"+iport.getType();
 		P2PManager.msg("Add Socket key:"+key);
 		MAP.put(key, socket);

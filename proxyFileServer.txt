@@ -1872,3 +1872,12 @@ ls
 lss
 ls
 lss
+KillSocket OK .
+Add Socket key:C1-1373789448624-kingdom.love320.com/183.62.141.12:22
+��
+Close:Socket[addr=/127.0.0.1,port=52858,localport=6320]
+Close:Socket[addr=/127.0.0.1,port=52854,localport=6320]
+Close:Socket[addr=/127.0.0.1,port=52857,localport=6320]
+Close:Socket[addr=/127.0.0.1,port=52873,localport=6320]
+KillSocket OK .
+Add Socket key:C2-1373789751977-kingdom.love320.com/183.62.141.12:22
