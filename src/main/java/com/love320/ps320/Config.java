@@ -55,6 +55,7 @@ public class Config {
 			
 			if(props.getProperty("PROXY_HOST") != null ) PROXY_HOST = props.getProperty("PROXY_HOST");
 			if(props.getProperty("PROXY_TO_DOC") != null ) PROXY_TO_DOC = Integer.parseInt(props.getProperty("PROXY_TO_DOC"));
+			if(props.getProperty("MANAGERPROXY") != null ) MANAGERPROXY = Integer.parseInt(props.getProperty("MANAGERPROXY"));
 			
 		} catch (Exception e) {
 			e.printStackTrace();
