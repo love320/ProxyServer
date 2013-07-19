@@ -5,3 +5,6 @@
 
 *.war
 *.ear
+
+proxyFileClient.txt
+proxyFileServer.txt
