@@ -6,7 +6,7 @@ import com.love320.ps320.manager.P2PManager;
 //启动新的服务
 public class St implements Icommand{
 	
-	public String code = "NEW";
+	public String code = "ST";
 
 	@Override
 	public String action(String command) {
