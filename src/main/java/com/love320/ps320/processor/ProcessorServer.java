@@ -86,7 +86,9 @@ public class ProcessorServer implements Runnable {
 	}
 	
 	public static Socket getSocket() throws IOException{
+		P2PManager.msg(">>");
 		Socket newsocket =serverSocket.accept();
+		P2PManager.msg(">><<<");
 		return newsocket;
 	}
 

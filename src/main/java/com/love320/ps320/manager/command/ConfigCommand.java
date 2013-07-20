@@ -12,5 +12,6 @@ public class ConfigCommand {
 		commands.add(new Lss());
 		commands.add(new Reboot());
 		commands.add(new New());
+		commands.add(new St());
 	}
 }

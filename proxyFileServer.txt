@@ -123,3 +123,60 @@ Add ServerSocket key:S1-1374162799402-6699@113.243.142.23:9999-1
 Add ServerSocket key:S4-1374162799402-6590@172.16.209.12:9090-2
 Add ServerSocket key:S3-1374162799402-6585@172.16.209.12:8585-2
 CloseSocketMap OK .
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen Port:6699) for P2PServerProxy
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6320) for P2PManagerServer 
+Started(Listen T Port:7777)
+Add ServerSocket key:S2-1374293819645-6590@172.16.209.12:9090-2
+Add ServerSocket key:S1-1374293819645-6522@127.0.0.1:22-2
+Add ServerSocket key:S4-1374293819645-6512@172.16.209.12:22-2
+Add ServerSocket key:S3-1374293819645-6585@172.16.209.12:8585-2
+Add ServerSocket key:S5-1374293819645-6699@113.243.142.23:9999-1
+StayConnected OK .
+Accept OK .
+>>
+CloseSocketMap OK .
+reSocketT:null
+Close:null
+>>
+File: D:\work\git\ProxyServer\proxyFileServer.txt
+Started(Listen Port:6699) for P2PServerProxy
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen T Port:22)
+Started(Listen Port:6320) for P2PManagerServer 
+StayConnected OK .
+Add ServerSocket key:S1-1374293932197-6512@172.16.209.12:22-2
+Add ServerSocket key:S3-1374293932197-6522@127.0.0.1:22-2
+Add ServerSocket key:S2-1374293932197-6585@172.16.209.12:8585-2
+Accept OK .
+Add ServerSocket key:S4-1374293932198-6590@172.16.209.12:9090-2
+Add ServerSocket key:S5-1374293932198-6699@113.243.142.23:9999-1
+>>
+CloseSocketMap OK .
+>><<<
+socketT:Socket[addr=/127.0.0.1,port=51706,localport=22]
+TEST
+reSocketT:Socket[addr=/127.0.0.1,port=51706,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51706,localport=22]
+>>
+>><<<
+socketT:Socket[addr=/127.0.0.1,port=51715,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51715,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51715,localport=22]
+>>
+>><<<
+socketT:Socket[addr=/127.0.0.1,port=51719,localport=22]
+���� ����'������
+lsd
+
+
+reSocketT:Socket[addr=/127.0.0.1,port=51719,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51719,localport=22]
+>>
