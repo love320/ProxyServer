@@ -47,17 +47,17 @@ public class ProcessorServer implements Runnable {
 		P2PManager.msg("reSocketT:"+P2PManager.socketT);
 		P2PSocket.socketClose(P2PManager.socketT);
 		P2PManager.socketT = null;
+		initSocket();
+	}
+	
+	public static void initSocket(){
 		try {
-			initSocket();
+			if(P2PManager.socketT == null) P2PManager.socketT = getSocket();
+			P2PManager.msg("socketT:"+P2PManager.socketT);
+			read();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-	}
-	
-	public static void initSocket() throws IOException{
-		if(P2PManager.socketT == null) P2PManager.socketT = getSocket();
-		P2PManager.msg("socketT:"+P2PManager.socketT);
-		read();
 		reSocketT();//重新获取
 	}
 	
