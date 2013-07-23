@@ -20,13 +20,10 @@ public class P2PClientReverse  extends java.lang.Thread  {
 
 	@Override
 	public void run() {
-		ProcessorClient processor = new ProcessorClient();
-		Thread mainthread= null;
 		while(true){
 			try {
 				if(!ProcessorClient.isclose()){
-					mainthread= new Thread(processor);//启动专用通信线程
-					mainthread.start();
+					new Thread(new ProcessorClient()).start();//启动专用通信线程
 					P2PManager.msg("clinet for server Go ...");
 				}
 				sleep(1000*5);
