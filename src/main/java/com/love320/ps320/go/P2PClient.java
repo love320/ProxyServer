@@ -16,13 +16,17 @@ import com.love320.ps320.processor.StayConnectedServer;
 
 public class P2PClient extends java.lang.Thread  {
 	
-	public static void main(String[] args) throws IOException {
+	public P2PClient(){
 		P2PManager.msg("Site: http://www.love320.com ");
 		P2PManager.msg("ps320开源 冰迪网络 出品 ");
 		FileOutMsg fom = new FileOutMsg(new File(Config.FILECLIENT));//日志
 		new Thread(fom).start();//启动日志
 		
 		P2PClientReverse.action();//启用逆向代理客户端
+	}
+	
+	public static void main(String[] args) throws IOException {
+		new P2PClient();
 	}
 	
 }
