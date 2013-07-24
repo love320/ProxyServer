@@ -19,7 +19,6 @@ public class StayConnectedClient extends java.lang.Thread {
 				e.printStackTrace();
 			} catch (IOException e) {
 				e.printStackTrace();
-				ProcessorServer.reSocketT();//重新获取新的
 			}
 		}
 	}

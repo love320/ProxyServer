@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.net.SocketException;
 import java.net.UnknownHostException;
 
 import com.love320.ps320.Config;
@@ -47,25 +48,28 @@ public class ProcessorServer implements Runnable {
 		P2PManager.msg("reSocketT:"+P2PManager.socketT);
 		P2PSocket.socketClose(P2PManager.socketT);
 		P2PManager.socketT = null;
-		initSocket();
 	}
 	
-	public static void initSocket(){
+	public static void initSocket()  {
 		try {
 			if(P2PManager.socketT == null) P2PManager.socketT = getSocket();
 			P2PManager.msg("socketT:"+P2PManager.socketT);
 			read();
+		} catch (SocketException e) {
+			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		reSocketT();//重新获取
+		
+		//重新初始化
+		P2PManager.socketT = null;
+		initSocket();
 	}
 	
 	public static void read() throws IOException{
 		while(true){
 			byte[] buffer = new byte[1024*4];
-			int temp = 0;
-			temp = P2PManager.socketT.getInputStream().read(buffer);
+			int temp = P2PManager.socketT.getInputStream().read(buffer);
 			if(temp==-1)break;
 			String msg = new String(buffer,0,temp);
 			P2PManager.isconn = true;//收到信息
