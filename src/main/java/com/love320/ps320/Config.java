@@ -50,6 +50,7 @@ public class Config {
 		Set<String> keys = null;
 		try {
 			InputStream in = new FileInputStream(Config.class.getResource("/").getPath()+Config.CONF);
+			//InputStream in = new FileInputStream(Config.CONF);
 			props.load(in);
 			keys = props.stringPropertyNames();
 			

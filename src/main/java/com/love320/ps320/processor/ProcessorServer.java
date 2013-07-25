@@ -51,6 +51,7 @@ public class ProcessorServer implements Runnable {
 	}
 	
 	public static void initSocket()  {
+		P2PManager.msg("initSocket");
 		try {
 			if(P2PManager.socketT == null) P2PManager.socketT = getSocket();
 			P2PManager.msg("socketT:"+P2PManager.socketT);
@@ -62,7 +63,7 @@ public class ProcessorServer implements Runnable {
 		}
 		
 		//重新初始化
-		P2PManager.socketT = null;
+		reSocketT();
 		initSocket();
 	}
 	

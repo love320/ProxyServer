@@ -16,13 +16,15 @@ public class StayConnectedServer extends java.lang.Thread {
 					sleep(1000*10);
 					if(P2PManager.isconn) {
 						P2PManager.isconn = false;
-						//ProcessorServer.outWrite(Config.TEST.getBytes());//给客户端发test信息
-					}else{
-						ProcessorServer.reSocketT();//重新获取新的
+						ProcessorServer.outWrite(Config.TEST.getBytes());//给客户端发test信息
+						continue;
 					}
 				} catch (InterruptedException e) {
 					e.printStackTrace();
+				} catch (IOException e) {
+					e.printStackTrace();
 				}
+				ProcessorServer.reSocketT();//重新获取新的
 		}
 	}
 
