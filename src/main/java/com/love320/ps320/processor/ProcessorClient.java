@@ -9,6 +9,7 @@ import java.util.List;
 import com.love320.ps320.Config;
 import com.love320.ps320.bean.IPort;
 import com.love320.ps320.manager.P2PManager;
+import com.love320.ps320.manager.socket.P2PSocket;
 
 
 public class ProcessorClient implements Runnable {
@@ -33,10 +34,11 @@ public class ProcessorClient implements Runnable {
 			temp = P2PManager.socketT.getInputStream().read(buffer);
 			if(temp==-1)break;
 			String msg =new String(buffer,0,temp);
+			P2PManager.isconn = true;//收到信息
 			P2PManager.msg(msg);
 			List<IPort> iportlist = P2PManager.IPort(msg);
 			if(iportlist.size() == 0){
-				outWrite(msg.getBytes());//回复
+				//outWrite(msg.getBytes());//回复
 			}else{
 				for(IPort iport : iportlist){
 					Socket serverSocket = new Socket(Config.PROXY_HOST,Config.PROXY_TO_DOC);
@@ -46,6 +48,14 @@ public class ProcessorClient implements Runnable {
 					P2PManager.P2PGO(serverSocket,clientSocket);//启动
 				}
 			}
+		}
+	}
+	
+	public static void reSocketT(){
+		P2PManager.msg("reSocketT:"+P2PManager.socketT);
+		if(P2PManager.socketT != null){
+			P2PSocket.socketClose(P2PManager.socketT);
+			P2PManager.socketT = null;
 		}
 	}
 	

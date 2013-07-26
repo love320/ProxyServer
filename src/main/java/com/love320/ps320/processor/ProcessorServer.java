@@ -46,8 +46,10 @@ public class ProcessorServer implements Runnable {
 	
 	public static void reSocketT(){
 		P2PManager.msg("reSocketT:"+P2PManager.socketT);
-		P2PSocket.socketClose(P2PManager.socketT);
-		P2PManager.socketT = null;
+		if(P2PManager.socketT != null){
+			P2PSocket.socketClose(P2PManager.socketT);
+			P2PManager.socketT = null;
+		}
 	}
 	
 	public static void initSocket()  {

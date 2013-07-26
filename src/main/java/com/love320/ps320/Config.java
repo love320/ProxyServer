@@ -30,7 +30,7 @@ public class Config {
 	public static int MANAGERPROXY = 6320;
 	
 	//其它
-	public static String TEST = "TEST";
+	public static String TEST = "TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM";
 	
 	//端口映射
 	public static List<IPort> IPORTLIST = new ArrayList<IPort>();

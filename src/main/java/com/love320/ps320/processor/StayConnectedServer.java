@@ -21,9 +21,11 @@ public class StayConnectedServer extends java.lang.Thread {
 					}
 				} catch (InterruptedException e) {
 					e.printStackTrace();
+				}catch(NullPointerException e){
+					e.printStackTrace();
 				} catch (IOException e) {
 					e.printStackTrace();
-				}
+				} 
 				ProcessorServer.reSocketT();//重新获取新的
 		}
 	}

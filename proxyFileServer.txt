@@ -1,0 +1,1364 @@
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6699) for P2PServerProxy
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen T Port:22)
+Started(Listen Port:6320) for P2PManagerServer 
+Add ServerSocket key:S3-1374812937856-6512@172.16.209.12:22-2
+Add ServerSocket key:S5-1374812937856-6699@113.243.142.23:9999-1
+Add ServerSocket key:S1-1374812937856-6522@127.0.0.1:22-2
+Add ServerSocket key:S4-1374812937856-6585@172.16.209.12:8585-2
+Add ServerSocket key:S2-1374812937856-6590@172.16.209.12:9090-2
+StayConnected OK .
+Accept OK .
+initSocket
+CloseSocketMap OK .
+socketT:Socket[addr=/127.0.0.1,port=50973,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+Started(Listen Port:6699) for P2PServerProxy
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6320) for P2PManagerServer 
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen T Port:22)
+Add ServerSocket key:S1-1374813015727-6590@172.16.209.12:9090-2
+Add ServerSocket key:S4-1374813015727-6699@113.243.142.23:9999-1
+Add ServerSocket key:S5-1374813015727-6522@127.0.0.1:22-2
+Add ServerSocket key:S3-1374813015727-6585@172.16.209.12:8585-2
+Add ServerSocket key:S2-1374813015727-6512@172.16.209.12:22-2
+StayConnected OK .
+Accept OK .
+initSocket
+CloseSocketMap OK .
+socketT:Socket[addr=/127.0.0.1,port=50983,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=50983,localport=22]
+Close:Socket[addr=/127.0.0.1,port=50983,localport=22]
+initSocket
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+KillSocket OK .
+reSocketT:null
+socketT:Socket[addr=/127.0.0.1,port=51012,localport=22]
+Add Socket key:C1-1374813318759-/127.0.0.1:22
+reSocketT:Socket[addr=/127.0.0.1,port=51012,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51012,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51012,localport=22]
+initSocket
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+reSocketT:null
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6699) for P2PServerProxy
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+reSocketT:null
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6699) for P2PServerProxy
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6320) for P2PManagerServer 
+Started(Listen T Port:22)
+StayConnected OK .
+Add ServerSocket key:S2-1374813541242-6585@172.16.209.12:8585-2
+Add ServerSocket key:S1-1374813541242-6590@172.16.209.12:9090-2
+Add ServerSocket key:S3-1374813541243-6512@172.16.209.12:22-2
+Add ServerSocket key:S5-1374813541243-6699@113.243.142.23:9999-1
+Add ServerSocket key:S4-1374813541243-6522@127.0.0.1:22-2
+initSocket
+CloseSocketMap OK .
+Accept OK .
+socketT:Socket[addr=/127.0.0.1,port=51030,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51030,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51030,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51032,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51032,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51032,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51034,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51034,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51034,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51035,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51035,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51035,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51037,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51037,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51037,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51038,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51038,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51038,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51040,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51040,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51040,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51042,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51042,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51042,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51043,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51043,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51043,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51044,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51044,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51044,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51047,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51047,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51047,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51048,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51048,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51048,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51049,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51049,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51049,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51052,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51052,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51052,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51053,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6699) for P2PServerProxy
+Started(Listen Port:6320) for P2PManagerServer 
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+Add ServerSocket key:S2-1374813703256-6590@172.16.209.12:9090-2
+Add ServerSocket key:S1-1374813703255-6699@113.243.142.23:9999-1
+Add ServerSocket key:S3-1374813703256-6512@172.16.209.12:22-2
+Started(Listen T Port:22)
+Add ServerSocket key:S4-1374813703257-6585@172.16.209.12:8585-2
+Accept OK .
+Add ServerSocket key:S5-1374813703257-6522@127.0.0.1:22-2
+StayConnected OK .
+initSocket
+CloseSocketMap OK .
+socketT:Socket[addr=/127.0.0.1,port=51057,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51057,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51057,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51064,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+>>TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+>>TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+>>TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+>>TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+>>TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+>>TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+>>TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+>>TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+>>TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+>>TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+>>TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+>>TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+>>TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+>>TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+>>TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+>>TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+>>TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+KillSocket OK .
+KillSocket .Socket[addr=/127.0.0.1,port=51075,localport=22]
+Add Socket key:C1-1374814006266-/127.0.0.1:22
+Close:Socket[addr=/127.0.0.1,port=51075,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+>>TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+>>TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+>>TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+>>TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6699) for P2PServerProxy
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6320) for P2PManagerServer 
+Started(Listen T Port:22)
+Add ServerSocket key:S1-1374814059000-6699@113.243.142.23:9999-1
+Add ServerSocket key:S3-1374814059000-6512@172.16.209.12:22-2
+Add ServerSocket key:S4-1374814059000-6585@172.16.209.12:8585-2
+Add ServerSocket key:S5-1374814059000-6590@172.16.209.12:9090-2
+Add ServerSocket key:S2-1374814059000-6522@127.0.0.1:22-2
+StayConnected OK .
+Accept OK .
+initSocket
+CloseSocketMap OK .
+socketT:Socket[addr=/127.0.0.1,port=51083,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51083,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51083,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51084,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51084,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51084,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51087,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51087,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51087,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51090,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51090,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51090,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51091,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51091,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51091,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51092,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51092,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51092,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51093,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51093,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51093,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51094,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51094,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51094,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51098,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51098,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51098,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51099,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51099,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51099,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51100,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51100,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51100,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51101,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51101,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51101,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51102,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51102,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51102,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51103,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51103,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51103,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51105,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51105,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51105,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51110,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51110,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51110,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51111,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51111,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51111,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51113,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51113,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51113,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51114,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51114,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51114,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51115,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51115,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51115,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51116,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51116,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51116,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51118,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51118,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51118,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51119,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51119,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51119,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51120,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51120,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51120,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51121,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51121,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51121,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51123,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51123,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51123,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51125,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51125,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51125,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51128,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51128,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51128,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51129,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51129,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51129,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51130,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51130,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51130,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51132,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51132,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51132,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51133,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51133,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51133,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51135,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51135,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51135,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51136,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51136,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51136,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51139,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51139,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51139,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51140,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51140,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51140,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51141,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51141,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51141,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51142,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51142,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51142,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51143,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51143,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51143,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51144,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51144,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51144,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51146,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51146,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51146,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51147,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51147,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51147,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51148,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51148,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51148,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51149,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51149,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51149,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51150,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51150,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51150,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51151,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51151,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51151,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51153,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51153,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51153,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51154,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51154,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51154,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51155,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51155,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51155,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51156,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51156,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51156,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51157,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51157,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51157,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51158,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51158,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51158,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51161,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51161,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51161,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51162,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51162,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51162,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51163,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51163,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51163,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51164,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51164,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51164,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51165,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51165,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51165,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51168,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51168,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51168,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51171,localport=22]
+KillSocket OK .
+KillSocket .Socket[addr=/127.0.0.1,port=51172,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51172,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51171,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51171,localport=22]
+reSocketT:null
+initSocket
+KillSocket .Socket[addr=/127.0.0.1,port=51173,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51173,localport=22]
+KillSocket .Socket[addr=/127.0.0.1,port=51174,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51174,localport=22]
+Add Socket key:C1-1374814362010-/127.0.0.1:22
+socketT:Socket[addr=/127.0.0.1,port=51175,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51175,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51175,localport=22]
+initSocket
+reSocketT:null
+socketT:Socket[addr=/127.0.0.1,port=51176,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51176,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51176,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51177,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51177,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51177,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51178,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51178,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51178,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51181,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51181,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51181,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51183,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51183,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51183,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51184,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51184,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51184,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51185,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51185,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51185,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51186,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51186,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51186,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51187,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51187,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51187,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51189,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51189,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51189,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51190,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51190,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51190,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51191,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51191,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51191,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51192,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51192,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51192,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51193,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51193,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51193,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51194,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51194,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51194,localport=22]
+initSocket
+reSocketT:null
+socketT:Socket[addr=/127.0.0.1,port=51196,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51196,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51196,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51197,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51197,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51197,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51198,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51198,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51198,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51199,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51199,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51199,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51200,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51200,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51200,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51201,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51201,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51201,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51203,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51203,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51203,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51205,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51205,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51205,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51206,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51206,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51206,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51207,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51207,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51207,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51208,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51208,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51208,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51209,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51209,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51209,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51211,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51211,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51211,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51212,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51212,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51212,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51213,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51213,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51213,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51214,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51214,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51214,localport=22]
+initSocket
+reSocketT:null
+socketT:Socket[addr=/127.0.0.1,port=51215,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51215,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51215,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51218,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51218,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51218,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51219,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51219,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51219,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51221,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51221,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51221,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51222,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51222,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51222,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51223,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51223,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51223,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51224,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51224,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51224,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51226,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51226,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51226,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51231,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51231,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51231,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51233,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51233,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51233,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51234,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51234,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51234,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51236,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51236,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51236,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51237,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51237,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51237,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51238,localport=22]
+KillSocket OK .
+KillSocket .Socket[addr=/127.0.0.1,port=51240,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51240,localport=22]
+KillSocket .Socket[addr=/127.0.0.1,port=51241,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51241,localport=22]
+KillSocket .Socket[addr=/127.0.0.1,port=51242,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51242,localport=22]
+KillSocket .Socket[addr=/127.0.0.1,port=51243,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51243,localport=22]
+KillSocket .Socket[addr=/127.0.0.1,port=51245,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51245,localport=22]
+KillSocket .Socket[addr=/127.0.0.1,port=51246,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51246,localport=22]
+KillSocket .Socket[addr=/127.0.0.1,port=51248,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51248,localport=22]
+KillSocket .Socket[addr=/127.0.0.1,port=51249,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51249,localport=22]
+KillSocket .Socket[addr=/127.0.0.1,port=51250,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51250,localport=22]
+KillSocket .Socket[addr=/127.0.0.1,port=51251,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51251,localport=22]
+KillSocket .Socket[addr=/127.0.0.1,port=51252,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51252,localport=22]
+KillSocket .Socket[addr=/127.0.0.1,port=51253,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51253,localport=22]
+KillSocket .Socket[addr=/127.0.0.1,port=51255,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51255,localport=22]
+Add Socket key:C2-1374814665013-/127.0.0.1:22
+KillSocket .Socket[addr=/127.0.0.1,port=51256,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51256,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51238,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51238,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51257,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51257,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51257,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51258,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51258,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51258,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51259,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51259,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51259,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51260,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6699) for P2PServerProxy
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen T Port:22)
+Started(Listen Port:6320) for P2PManagerServer 
+StayConnected OK .
+Accept OK .
+Add ServerSocket key:S1-1374814722390-6585@172.16.209.12:8585-2
+Add ServerSocket key:S3-1374814722390-6512@172.16.209.12:22-2
+Add ServerSocket key:S2-1374814722390-6590@172.16.209.12:9090-2
+initSocket
+Add ServerSocket key:S1-1374814722390-6699@113.243.142.23:9999-1
+Add ServerSocket key:S4-1374814722390-6522@127.0.0.1:22-2
+CloseSocketMap OK .
+socketT:Socket[addr=/127.0.0.1,port=51274,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51274,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51274,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51275,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51275,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51275,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51277,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51277,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51277,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51279,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51279,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51279,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51280,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51280,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51280,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51282,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51282,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51282,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51283,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51283,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51283,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51284,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51284,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51284,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51286,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51286,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51286,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51287,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51287,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51287,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51290,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51290,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51290,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51292,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51292,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51292,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51293,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51293,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51293,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51295,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51295,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51295,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51298,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51298,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51298,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51299,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51299,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51299,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51300,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51300,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51300,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51302,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51302,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51302,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51305,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51305,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51305,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51306,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51306,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51306,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51308,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51308,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51308,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51309,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51309,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51309,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51310,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51310,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51310,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51313,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51313,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51313,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51314,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51314,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51314,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51315,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51315,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51315,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51316,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51316,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51316,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51318,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51318,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51318,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51319,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=51319,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51319,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51323,localport=22]
+KillSocket OK .
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+KillSocket .Socket[addr=/127.0.0.1,port=51326,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51326,localport=22]
+Add Socket key:C1-1374815025399-/127.0.0.1:22
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6699) for P2PServerProxy
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen T Port:22)
+Started(Listen Port:6320) for P2PManagerServer 
+StayConnected OK .
+Add ServerSocket key:S1-1374815034133-6512@172.16.209.12:22-2
+Add ServerSocket key:S2-1374815034133-6522@127.0.0.1:22-2
+Add ServerSocket key:S3-1374815034133-6590@172.16.209.12:9090-2
+Add ServerSocket key:S4-1374815034133-6585@172.16.209.12:8585-2
+Add ServerSocket key:S5-1374815034134-6699@113.243.142.23:9999-1
+Accept OK .
+initSocket
+CloseSocketMap OK .
+socketT:Socket[addr=/127.0.0.1,port=51328,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51328,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51328,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51329,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51329,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51329,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51332,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51332,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51332,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51332,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51332,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51334,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51334,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51334,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51335,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51335,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51335,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51337,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51337,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51337,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51338,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51338,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51338,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51339,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51339,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51339,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51341,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51341,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51341,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51342,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51342,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51342,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51343,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51343,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51343,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51346,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51346,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51346,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51347,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51347,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51347,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51348,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51348,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51348,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51351,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51351,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51351,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51352,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51352,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51352,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51353,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51353,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51353,localport=22]
+reSocketT:null
+initSocket
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6699) for P2PServerProxy
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6320) for P2PManagerServer 
+Started(Listen T Port:22)
+StayConnected OK .
+Add ServerSocket key:S1-1374815214394-6699@113.243.142.23:9999-1
+Add ServerSocket key:S2-1374815214394-6585@172.16.209.12:8585-2
+Add ServerSocket key:S3-1374815214395-6512@172.16.209.12:22-2
+Add ServerSocket key:S4-1374815214395-6522@127.0.0.1:22-2
+Add ServerSocket key:S5-1374815214395-6590@172.16.209.12:9090-2
+Accept OK .
+initSocket
+CloseSocketMap OK .
+socketT:Socket[addr=/127.0.0.1,port=51356,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51356,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51356,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51357,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51357,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51357,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51357,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51359,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51359,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51359,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51360,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51360,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51360,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51361,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51361,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51361,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51365,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51365,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51365,localport=22]
+reSocketT:null
+initSocket
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6699) for P2PServerProxy
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen T Port:22)
+Started(Listen Port:6320) for P2PManagerServer 
+StayConnected OK .
+Accept OK .
+Add ServerSocket key:S1-1374815289508-6522@127.0.0.1:22-2
+Add ServerSocket key:S4-1374815289508-6585@172.16.209.12:8585-2
+initSocket
+Add ServerSocket key:S1-1374815289508-6699@113.243.142.23:9999-1
+Add ServerSocket key:S2-1374815289508-6590@172.16.209.12:9090-2
+Add ServerSocket key:S3-1374815289508-6512@172.16.209.12:22-2
+CloseSocketMap OK .
+socketT:Socket[addr=/127.0.0.1,port=51367,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6699) for P2PServerProxy
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen T Port:22)
+Started(Listen Port:6320) for P2PManagerServer 
+StayConnected OK .
+Accept OK .
+Add ServerSocket key:S1-1374815466292-6590@172.16.209.12:9090-2
+Add ServerSocket key:S3-1374815466292-6522@127.0.0.1:22-2
+Add ServerSocket key:S2-1374815466292-6512@172.16.209.12:22-2
+Add ServerSocket key:S1-1374815466292-6699@113.243.142.23:9999-1
+initSocket
+Add ServerSocket key:S4-1374815466292-6585@172.16.209.12:8585-2
+CloseSocketMap OK .
+socketT:Socket[addr=/127.0.0.1,port=51400,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51400,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51400,localport=22]
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51401,localport=22]
+reSocketT:Socket[addr=/127.0.0.1,port=51401,localport=22]
+Close:Socket[addr=/127.0.0.1,port=51401,localport=22]
+reSocketT:null
+initSocket
+socketT:Socket[addr=/127.0.0.1,port=51402,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+Started(Listen Port:6699) for P2PServerProxy
+File: E:\git\ProxyServer.git\proxyFileServer.txt
+Started(Listen Port:6585) for P2PServerReverse 
+Started(Listen Port:6590) for P2PServerReverse 
+Started(Listen Port:6512) for P2PServerReverse 
+Started(Listen Port:6522) for P2PServerReverse 
+Started(Listen Port:6320) for P2PManagerServer 
+Add ServerSocket key:S1-1374835567985-6590@172.16.209.12:9090-2
+Add ServerSocket key:S3-1374835567985-6699@113.243.142.23:9999-1
+Add ServerSocket key:S2-1374835567985-6522@127.0.0.1:22-2
+Add ServerSocket key:S4-1374835567986-6512@172.16.209.12:22-2
+Add ServerSocket key:S5-1374835567986-6585@172.16.209.12:8585-2
+Started(Listen T Port:22)
+StayConnected OK .
+Accept OK .
+initSocket
+CloseSocketMap OK .
+socketT:Socket[addr=/127.0.0.1,port=58216,localport=22]
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+TEST1234567890QWERTYUIOPASDFGHJKLZXCVBNM://PS320.LOVE32.COM
+reSocketT:Socket[addr=/127.0.0.1,port=58216,localport=22]
+Close:Socket[addr=/127.0.0.1,port=58216,localport=22]
+initSocket

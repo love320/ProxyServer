@@ -23,6 +23,7 @@ public class P2PClientReverse  extends java.lang.Thread  {
 		while(true){
 			try {
 				if(!ProcessorClient.isclose()){
+					ProcessorClient.reSocketT();
 					new Thread(new ProcessorClient()).start();//启动专用通信线程
 					P2PManager.msg("clinet for server Go ...");
 				}
